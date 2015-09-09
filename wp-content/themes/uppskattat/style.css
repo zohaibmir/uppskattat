@@ -1,0 +1,270 @@
+/*
+Theme Name: Uppskattat
+Author: Albin Ferm
+Author URI: http://uppskattat.se
+Description: A theme made for Uppskattat.se
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+body { background:#efefef;}
+
+.container { width:56%;}
+
+IMG.logotyp {width: 320px;}
+
+.buttons-container { margin-bottom: 20px;}
+
+.attachment-small-image {max-height: 210px; min-height: 210px;}
+.size-thumbnail { width: 50px;}
+
+.close-fb {float:right; margin: 5px 8px; font-size: 0.8em; color: #6e6e6e; z-index:999;}
+
+.close-fb:hover { cursor: pointer;}
+
+.adss {text-align: center; verticle-align: center; display: none; }
+
+.mobil {text-align: center; verticle-align: center; margin-bottom: 30px;}
+
+.annons1 {margin-bottom: 30px; display: none; }
+
+.annons2 {margin-top: 30px; display: none; }
+
+.annons3 {margin-bottom: 30px; display: none; }
+
+.mobil6 { background: #000; padding: 10px;}
+
+.mobil3 {}
+
+.mobil4 {}
+
+.footer h3 { color:#FFF; font-size:1.1em;}
+
+.footer { font-family: 'Open Sans', sans-serif; font-weight: 100;}
+
+.footer span { font-size:0.9em;}
+
+.article-small { background:#FFF;
+-webkit-box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.20);
+-moz-box-shadow:    0px 2px 9px 0px rgba(50, 50, 50, 0.20);
+box-shadow:         0px 2px 9px 0px rgba(50, 50, 50, 0.20);
+border-radius: 5px;
+padding-bottom:15px;
+margin-bottom:25px;
+}
+
+h2.titeln { }
+
+.adBox {
+	margin-bottom: 20px;
+}
+div#fb-popup {
+	background: #fff; width:350px; height: 68px; z-index: 99; position: fixed; bottom: 15px; right: 15px;
+	border-radius: 5px;
+	border: #efefef 3px solid;
+}
+
+h3.best-of {background: #428bca; color: #FFF; padding: 8px; font-size: 1.3em; font-family: 'Open Sans', sans-serif; font-weight: 100; }
+
+iframe {width: 100%;}
+
+a h1 { color:#3d3f40;  font-family: 'Open Sans', sans-serif; font-weight: 100; }
+
+a h1:hover { color: #2b2c2e;}
+
+span.content-txt {font-family: 'Calibri', sans-serif; color: #262626; font-size: 1.2em; }
+
+.content-txt {font-family: 'Merriweather Sans', sans-serif;}
+
+.article-big {}
+
+h1 { margin:0px; color:#3d3f40;  font-family: 'Open Sans', sans-serif; font-weight: 100; }
+
+img { height: auto; width: 100%; max-width: 100% !important;}
+
+.ad-100 { height:110px; width:100%; background: #FFF; border: 1px solid #e3e0e0; margin-bottom:25px; text-align:center; color:#999; padding-top:48px;}
+
+.nohover { background:none !important; font-family: 'Arial', sans-serif; color:#aab3c7; font-weight:bold; }
+
+
+img.avatar { width:40px; float:left;}
+
+img.avatar2 { width:50px; margin:20px 0px; border:3px solid #FFF; border-bottom:1px solid #CCC; float:left;}
+
+.article-small span { font-family: 'Arial', sans-serif; color:#aab3c7; font-weight:bold; font-size:0.9em; position:absolute; margin: 15px 0px 0px 15px;}
+
+.article-small h2 { padding:15px; font-size:1.5em; margin:0px; font-family: 'Arial', sans-serif; font-weight:900;}
+
+.article-small img { border-top-left-radius: 5px; border-top-right-radius: 5px; height: auto;}
+
+hr.fb-line {
+	border-top: 1px solid #ddd;
+}
+
+.h2-title {
+	height: 190px;
+}
+
+
+
+
+
+/* STOR UPPLÃ–SNING (SAMTLIGA DATORUPPLÃ–SNINGAR) */
+@media (min-width: 1090px) {
+	.container {
+		width: 1090px;
+		padding: 10px;
+	}
+	.mobil {display: none;}
+}
+
+/* STOR UPPLÃ–SNING (SAMTLIGA DATORUPPLÃ–SNINGAR) */
+@media (max-width: 1089px) {
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+	.mobil {display: none;}
+}
+
+/* MEDEL UPPLÃ–SNING (STÃ–RRE TELEFON) */
+@media (max-width: 991px) {
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+	.mobil {display: none;}
+}
+
+
+
+/* LITEN UPPLÃ–SNING (TELEFON) */
+@media (max-width: 768px) {
+	.article-header {
+		font-size: 1.8em !important;
+	}
+
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.fb-share {
+	margin-bottom: 20px;
+
+	}
+
+	div#fb-popup {
+		background: #fff;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		height: 68px;
+		overflow: hidden;
+		z-index: 99;
+		border-radius: 0;
+		border: none;
+		border-top: 1px solid #ddd;
+	}
+
+	.close-fb {
+	        font-size: 1em; z-index: 1090 !important; padding: 14px;
+	}
+	
+	IMG.logotyp {width: 210px;}
+	
+	.header-logo { margin-bottom: 15px;}
+
+	.adss {display: none;}
+	.mobil {display:block;}
+
+	.mobil3 {display:block;}
+	.col-sm-8, .col-sm-4 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.h2-title {
+		height: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+
+	h1 {
+		font-size: 16px !important;
+	}
+
+	.article-small h2 {
+		font-size: 16px;
+	}
+
+}
+
+/* EXTRA LITEN UPPLÃ–SNING (MINDRE TELEFON) */
+@media (max-width: 431px) {
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+	.mobil {display:block;}
+	.mobil3 {display:block;}
+}
+
+p {
+	font-size: 16px;
+}
+
+.phoneBlockBottom {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1000;
+	left: 0;
+	background: #ffffff;
+
+	padding: .5em;
+	border-top: 1px solid rgba(0,0,0,.20);
+	-moz-animation-name: slide-up-share-mobile;
+-webkit-animation-name: slide-up-share-mobile;
+animation-name: slide-up-share-mobile;
+-moz-animation-duration: .4s;
+-webkit-animation-duration: .4s;
+animation-duration: .4s;
+-moz-animation-iteration-count: 1;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+-moz-animation-direction: normal;
+-webkit-animation-direction: normal;
+animation-direction: normal;
+-moz-animation-timing-function: "ease";
+-webkit-animation-timing-function: "ease";
+animation-timing-function: "ease";
+}
+
+.onlymobile {
+	display: none !important;
+}
+
+@media only screen and (max-width:550px) {
+	.onlymobile {
+		display: block !important;
+	}
+}
+
+.adTop {
+	margin-bottom: 45px;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mobileAd {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
