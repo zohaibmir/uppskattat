@@ -45,7 +45,7 @@
         <div class="main-content-wrapper large-8 medium-10 medium-centered large-uncentered columns sl-grid-height" id="infscrl-wrapper" data-max-infinite-scroll-pages="7899">
             <div class="article-wrapper">
                 <?php $sponsored_cat = get_category_by_slug('sponsrad') ?>
-
+                <?php // echo do_shortcode('[ajax_load_more post_type="post" tag="diy"]')?>
                 <?php
                 $paged = ( get_query_var('paged') ) ? absint(get_query_var('paged')) : 1;
                 $args = array(
