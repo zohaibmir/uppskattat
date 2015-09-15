@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php get_header(); 
+
+//echo wpb_get_post_views(get_the_ID()) ;
+?>
 
 
 
@@ -114,4 +117,7 @@
     </div>
 </section>
 
-<?php get_footer(); ?>
+<?php 
+wpb_set_post_views(get_the_ID());
+
+get_footer(); ?>
