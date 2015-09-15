@@ -74,7 +74,7 @@ $term_id = $queried_object->term_id;
 
     </div>
     <div class="large-4 columns sidebar-wrapper show-for-large-up sl-grid-height">
-
+        <?php get_sidebar(); ?>
     </div>
 </div>
 
