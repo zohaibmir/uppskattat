@@ -91,17 +91,17 @@
 
 
                                     <li>
-                                        <a href="http://facebook.com/elitedaily">
+                                        <a href="http://www.facebook.com/UppskattatSE">
                                             <i class="fi-social-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="http://twitter.com/elitedaily">
+                                        <a href="http://twitter.com/UppskattatSE">
                                             <i class="fi-social-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="http://youtube.com/elitedaily">
+                                        <a href="http://youtube.com/UppskattatSE">
                                             <i class="fi-social-youtube"></i>
                                         </a>
                                     </li>
