@@ -2,7 +2,19 @@
  ?>
 
 <?php $sponsored_cat = get_category_by_slug('sponsrad') ?>
-
+<div class="hidden-xs adTop">
+	<!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #1 - 980x240 (5202745) // created at: Aug 25, 2014 10:11:08 AM --> <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script> <div id="5202745"><noscript><a href="http://adserver.adtech.de/adlink|3.0|1568.1|5202745|0|2649|ADTECH;loc=300;alias=" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|1568.1|5202745|0|2649|ADTECH;loc=300;alias=" border="0" width="980" height="240"></a></noscript></div> <script> ADTECH.config.page = { protocol: 'http', server: 'adserver.adtech.de', network: '1568.1', siteid: '707809', params: { loc: '100' }}; ADTECH.config.placements[5202745] = { sizeid: '2649', params: { alias: '', target: '_blank' }}; ADTECH.enqueueAd(5202745); ADTECH.executeQueue(); </script>
+</div>
+<div class="visible-xs mobileAd">
+<!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Mobilt // Placement: Uppskattat - Mobil #1 - 320x320 (5202747) // created at: Aug 25, 2014 10:11:14 AM -->
+<script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
+<div id="5202747"><noscript><a href="http://a.adtech.de/adlink|3.0|1568.1|5202747|0|2804|ADTECH;loc=300;alias=" target="_blank"><img src="http://a.adtech.de/adserv|3.0|1568.1|5202747|0|2804|ADTECH;loc=300;alias=" border="0" width="320" height="320"></a></noscript></div>
+<script>
+ADTECH.config.page = { protocol: 'http', server: 'adserver.adtech.de', network: '1568.1', siteid: '707810', params: { loc: '100' }};
+ADTECH.config.placements[5202747] = { sizeid: '2804', params: { alias: '', target: '_blank' }};
+ADTECH.enqueueAd(5202747);
+</script>
+</div>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php $exclude_ids[] = $post->ID; ?>
     <?php $thePostId = $post->ID; ?>
