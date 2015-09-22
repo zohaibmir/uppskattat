@@ -53,8 +53,7 @@ get_header();
                         <?php $exclude_ids[] = $post->ID; ?>
                         <?php $thePostId = $post->ID; ?>
                         <article class="large-12 columns main-story" data-pid="1212435" itemscope="" itemtype="http://schema.org/Article">
-                            <div class="mobile-feat-img-wrapper wp-caption">
-                                <img width="600" height="300" src="http://cdn29.elitedaily.com/content/uploads/2015/09/15160748/elitedaily-Mauro-Grigollo-date-600x300.jpg" data-lazy-backup="http://cdn29.elitedaily.com/content/uploads/2015/09/15160748/elitedaily-Mauro-Grigollo-date-600x300.jpg" class="attachment-wide-large in-post-feat-img large-12 wp-post-image" alt="date" title="Lovers meeting at the Park after work." data-lazy-loaded="true"><noscript>&lt;img width="600" height="300" src="http://cdn29.elitedaily.com/content/uploads/2015/09/15160748/elitedaily-Mauro-Grigollo-date-600x300.jpg" class="attachment-wide-large in-post-feat-img large-12 wp-post-image" alt="date" title="Lovers meeting at the Park after work." /&gt;</noscript><p class="wp-caption-text" itemprop="caption"><a href="http://www.stocksy.com/737271" target="_blank">Mauro Grigollo</a></p>			</div>
+
 
                             <div class="mobile-article-wrapper">
 
@@ -68,26 +67,7 @@ get_header();
 
 
 
-                                <!--div class="article-sharing mobile-top-article-share">
-                                    <a href="javascript:site_content.fb_share_this('http://elitedaily.com/dating/good-date-snap-us/1212435/', 550, 350)" class="fb-share article-share-btn icon-ed-social-facebook" data-ev-name="share" data-ev-val="facebook" data-ev-loc="article-top"><span>Share</span></a>
-                                    <a href="javascript:site_content.twitter_share_this('http://elitedaily.com/dating/good-date-snap-us/1212435/', 'One Good Date Is All We Need To Forget About The Stupid Hook-Up Culture', 550, 350, false, '&amp;hashtags=stilllearning')" class="tw-share article-share-btn icon-ed-social-twitter-1" data-ev-name="share" data-ev-val="twitter" data-ev-loc="article-top" data-hashtag="&amp;hashtags=stilllearning"><span>Tweet</span></a>
-                                    <a href="javascript:site_content.load_all_images(function(){var e=document.createElement('script'); e.setAttribute('type','text/javascript'); e.setAttribute('charset','UTF-8'); e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999); document.body.appendChild(e) })" class="pi-share article-share-btn icon-ed-social-pinterest show-for-large-up" data-ev-name="share" data-ev-val="pinterest" data-ev-loc="article-top"></a>
-                                    <a href="mailto:?subject=Elite Daily: One Good Date Is All We Need To Forget About The Stupid Hook-Up Culture&amp;body=I was satisfied with my love life. Sure, it wasn’t quite “The Notebook,” but it wasn’t awful, either. I was juggling several hot, young men, and nobody was grabbing my heart and slashing it into a million pieces. I felt like I was doing something right. It wasn’t until I went on a real, bonafide date — with a […]%0A%0Ahttp://elitedaily.com/dating/good-date-snap-us/1212435/%0A%0A" class="email-share article-share-btn icon-ed-email-fill" data-ev-name="share" data-ev-val="email" data-ev-loc="article-top"></a>
-                                    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://elitedaily.com/dating/good-date-snap-us/1212435/&amp;title=One Good Date Is All We Need To Forget About The Stupid Hook-Up Culture&amp;source=Elite Daily" target="_blank" class="li-share article-share-btn icon-ed-social-linkedin" data-ev-name="share" data-ev-val="linkedin" data-ev-loc="article-top"></a>
-                                    <a href="http://www.stumbleupon.com/submit?url=http://elitedaily.com/dating/good-date-snap-us/1212435/&amp;title=One Good Date Is All We Need To Forget About The Stupid Hook-Up Culture" target="_blank" class="su-share article-share-btn icon-ed-social-stumbleupon" data-ev-name="share" data-ev-val="stumble" data-ev-loc="article-top"></a>
-                                    <a href="http://reddit.com/submit?url=http://elitedaily.com/dating/good-date-snap-us/1212435/&amp;title=One Good Date Is All We Need To Forget About The Stupid Hook-Up Culture" target="_blank" class="rd-share article-share-btn icon-ed-social-reddit" data-ev-name="share" data-ev-val="reddit" data-ev-loc="article-top"></a>
-                                    <a href="#" class="bookmark-share article-share-btn icon-ed-bookmark" data-ev-name="sign-in" data-ev-loc="article-top"></a>
 
-                                    <div class="more-share article-share-btn icon-ed-plus" data-ev-name="more-share" data-ev-loc="article-top"></div>
-                                    <div class="share-divider"></div>
-                                    <div class="article-like-button">
-                                        <div class="fb-like fb_iframe_widget" data-href="http://elitedaily.com/dating/good-date-snap-us/1212435/" data-width="100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" data-ev-name="fb-like" data-ev-loc="article-top" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=378366428966386&amp;container_width=0&amp;href=http%3A%2F%2Felitedaily.com%2Fdating%2Fgood-date-snap-us%2F1212435%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;width=100"><span style="vertical-align: bottom; width: 82px; height: 20px;"><iframe name="f58761da4" width="100px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/v2.0/plugins/like.php?action=like&amp;app_id=378366428966386&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F44OwK74u0Ie.js%3Fversion%3D41%23cb%3Df16d7a38e4%26domain%3Delitedaily.com%26origin%3Dhttp%253A%252F%252Felitedaily.com%252Ff271b6a7e8%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Felitedaily.com%2Fdating%2Fgood-date-snap-us%2F1212435%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;width=100" style="border: none; visibility: visible; width: 82px; height: 20px;" class=""></iframe></span></div>
-                                    </div>
-                                    <div class="total-share-count"><span>
-                                            <span class="share-number">4k</span>
-                                            <span class="share-number-text icon-ed-share-arrow">Shares</span>
-                                        </span></div>
-                                </div-->
 
                                 <br />
 
@@ -160,6 +140,8 @@ get_header();
 
                                 </div>
                             </div>
+
+
                             <div class="page-fb-like show-for-small mobile-like-us">
                                 <span class="like-us-on-fb">Like Us On Facebook</span>
                                 <?php
@@ -172,6 +154,8 @@ get_header();
                                 }
                                 ?>
                             </div>
+
+
                             <div id="dfp_adhesion" class="ad-mobile-leaderboard-wrapper row"></div>
 
 
@@ -179,25 +163,20 @@ get_header();
                                 <?php the_content() ?>
                             </div>
 
-                             <div class="bottom-article-share row">
-                                <div class="columns large-6 medium-4 small-6 facebook-article-share-wrapper">
-                                    <a href="#">
-                                        <span>Share</span>
-                                    </a>
+                            <div class="bottom-article-share row">
+                                <div class="columns large-6 medium-6 small-12 facebook-article-share-wrapper"><a href="#" class="fb-share article-share-btn-bottom icon-ed-social-facebook" data-ev-name="share" data-ev-val="facebook" data-ev-loc="article-bottom"><span>Share</span></a>
                                 </div>
-                                <div class="columns large-6 medium-4 small-6 twitter-article-share-wrapper">
-                                    <a href="">
-                                        <span>Tweet</span>
-                                    </a>
-                                </div>                              
+                                <div class="columns large-6 medium-6 small-12 twitter-article-share-wrapper"><a href="javascript:site_content.twitter_share_this('http://elitedaily.com/news/martin-shkreli-increased-price-drug/1220772/', 'Meet The Man Who Increased Price Of A Life-Saving Drug By 5,500 Percent', 550, 350, false, '')" class="tw-share article-share-btn-bottom icon-ed-social-twitter-1" data-ev-name="share" data-ev-val="twitter" data-ev-loc="article-bottom"><span>Tweet</span></a>
+                                </div>
+                               
                             </div>
-                           <br />
-                           <br />
-                           <br />
-                           <br />
-                           <br />
-                           <br />
 
+
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
 
                         </article>
 
@@ -206,11 +185,13 @@ get_header();
                 <?php endif; ?>
             </div>
         </div>
+
         <div class="large-4 columns sidebar-wrapper show-for-large-up sidebar-fix-height">
             <?php get_sidebar(); ?>
         </div>
+
+    </section>
 </div>
-</section>
 <?php
 wpb_set_post_views(get_the_ID());
 

@@ -1,9 +1,9 @@
 </div>
 
-<div class="footer" style=" background:#333333; color:#999999; font-family: 'Merriweather Sans', sans-serif; font-weight:100;padding: 50px">
+<div class="footer">
     <div id="main-container" class="container">
         <div class="row">
-            <div class="small-6 columns">
+            <div class="small-12 large-6 columns">
                 <h3 style="color: #FFF; font-size:14px;">Om Uppskattat.se</h3>
 
                 <span>
@@ -11,9 +11,9 @@
                 </span>
             </div>
 
-            <div class="small-6 columns">
-                <h3 style="color: #FFF; font-size:14px;">Länkar</h3>
-                <ul style="margin-left:-10px;">
+            <div class="small-12 large-6 columns">
+                <h3 class="menu-links">Länkar</h3>
+                <ul class="footer-links">
                     <li><a style="color:#FFF;" href="http://uppskattat.se/annonsera-2/">Annonsering</a></li>				
                     <li><a style="color:#FFF;" href="http://www.uppskattat.se">Startsidan</a></li>
                     <li><a style="color:#FFF;" href="http://www.facebook.com/UppskattatSE">Facebook</a></li>
