@@ -164,9 +164,11 @@ get_header();
                             </div>
 
                             <div class="bottom-article-share row">
-                                <div class="columns large-6 medium-6 small-12 facebook-article-share-wrapper"><a href="#" class="fb-share article-share-btn-bottom icon-ed-social-facebook" data-ev-name="share" data-ev-val="facebook" data-ev-loc="article-bottom"><span>Share</span></a>
+                                <div class="columns large-6 medium-6 small-12 facebook-article-share-wrapper"><a href="#" class="fb-share article-share-btn-bottom fi-social-facebook" data-ev-name="share" data-ev-val="facebook" data-ev-loc="article-bottom"><span>Share</span></a>
                                 </div>
-                                <div class="columns large-6 medium-6 small-12 twitter-article-share-wrapper"><a href="javascript:site_content.twitter_share_this('http://elitedaily.com/news/martin-shkreli-increased-price-drug/1220772/', 'Meet The Man Who Increased Price Of A Life-Saving Drug By 5,500 Percent', 550, 350, false, '')" class="tw-share article-share-btn-bottom icon-ed-social-twitter-1" data-ev-name="share" data-ev-val="twitter" data-ev-loc="article-bottom"><span>Tweet</span></a>
+                                <div class="columns large-6 medium-6 small-12 twitter-article-share-wrapper"><a href="javascript:site_content.twitter_share_this('http://elitedaily.com/news/martin-shkreli-increased-price-drug/1220772/', 'Meet The Man Who Increased Price Of A Life-Saving Drug By 5,500 Percent', 550, 350, false, '')" class="tw-share article-share-btn-bottom fi-social-twitter" data-ev-name="share" data-ev-val="twitter" data-ev-loc="article-bottom">
+                                        <span>Tweet</span>
+                                    </a>
                                 </div>
                                
                             </div>
