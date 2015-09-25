@@ -71,5 +71,16 @@
 
 </script>
 <?php wp_footer(); ?>
+
+
+
+<script src="<?php bloginfo('template_directory'); ?>/js/jquery.sidr.min.js"></script>
+
+<script>
+    $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+</script>
 </body>
 </html>
