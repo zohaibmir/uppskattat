@@ -25,48 +25,61 @@
 
 
     <div class="body-wrapper">
-        <nav class="main-nav">
+
+        <div class="show-for-medium-down" style="margin-top: 20px;">  
+            <div class="row">
+                <div class="small-12 columns">
+                    <div id="mobile-header" style="position: absolute;left: 20px;top: 10px;">
+                        <a class="topbar" id="responsive-menu-button" href="#sidr-main">
+                            <span class="topmenu">Menu</span>
+                        </a>
+                        
+                    </div>
+                    <div id="navigation">
+                        <nav class="nav">
+                            <ul class="mob-nav show-for-medium-up">
+                                <?php
+                                $terms = get_terms(
+                                        array('post_tag'), array(
+                                    'orderby' => 'count',
+                                    'hide_empty' => 0
+                                        )
+                                        )
+                                ?>
+                                <?php if (!empty($terms) && !is_wp_error($terms)) : ?>
+                                    <?php foreach ($terms as $term) : ?>
+                                        <li id="menu-item-1131977" class="">                                            
+                                            <a href="<?php echo get_term_link($term); ?>" data-ev-loc="header-nav" data-ev-name="nav-main" data-ev-val="love hurts">
+                                                <?php echo $term->name; ?>
+                                            </a>                                           
+
+                                        </li>
+
+
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </ul>
+                        </nav>
+                    </div>   
+
+                    <div class="logo-header" data-ev-name="home-link" data-ev-loc="header-nav">
+                        <a class="header-logo" style="" class="navbar-brand" href="<?php echo home_url(); ?>"><img class="logotyp" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="200"></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <nav class="main-nav show-for-large-up">
             <div class="nav-outer-wrapper large-12">
                 <div class="nav-wrapper row">
                     <div class="nav-inner-wrapper columns">
-                        <div class="mobile-menu icon-ed-hamburger"></div>
+
                         <div class="logo-header" data-ev-name="home-link" data-ev-loc="header-nav">
                             <a class="header-logo" style="" class="navbar-brand" href="<?php echo home_url(); ?>"><img class="logotyp" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="200"></a>
                         </div>
 
-                        <div class="show-for-small-only">  
 
-                            <div id="mobile-header">
-                                <a id="responsive-menu-button" href="#sidr-main">Menu</a>
-                            </div>
-
-                            <div id="navigation">
-                                <nav class="nav">
-                                    <ul class="mob-nav">
-                                        <?php
-                                        $terms = get_terms(
-                                                array('post_tag'), array(
-                                            'orderby' => 'count',
-                                            'hide_empty' => 0
-                                                )
-                                                )
-                                        ?>
-                                        <?php if (!empty($terms) && !is_wp_error($terms)) : ?>
-                                            <?php foreach ($terms as $term) : ?>
-                                                <li id="menu-item-1131977" class="">                                            
-                                                    <a href="<?php echo get_term_link($term); ?>" data-ev-loc="header-nav" data-ev-name="nav-main" data-ev-val="love hurts">
-                                                        <?php echo $term->name; ?>
-                                                    </a>                                           
-
-                                                </li>
-
-
-                                            <?php endforeach; ?>
-                                        <?php endif; ?>
-                                    </ul>
-                                </nav>
-                            </div>            
-                        </div>
                         <!-- HOME NAVIGATION -->
                         <div class="home-nav large-12 show-for-medium-up">
                             <ul class="topic-nav">

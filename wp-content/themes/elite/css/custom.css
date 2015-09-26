@@ -77,4 +77,28 @@ and open the template in the editor.
     .page-fb-like.mobile-like-us {
         padding: 15px;
     }
+    
+    
+     .outer-content-wrapper {
+        margin-top: 0px !important;
+    }
+}
+
+
+
+.topmenu {
+    color: #000;
+    padding-left: 20px;
+}
+.topmenu::after {
+    content: '';
+    display: block;
+    height: 0;
+    position: absolute;
+    margin-top: -8px;
+    top: 50%;
+    right: 50px;
+    box-shadow: 0 0 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+    width: 16px;
+    
 }
