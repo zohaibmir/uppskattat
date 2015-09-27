@@ -29,9 +29,9 @@
         <div class="show-for-medium-down" style="margin-top: 20px;">  
             <div class="row">
                 <div class="small-12 columns">
-                    <div id="mobile-header" style="position: absolute;left: 20px;top: 10px;">
+                    <div id="mobile-header" style="position: absolute;left: 20px;top: 5px;">
                         <a class="topbar" id="responsive-menu-button" href="#sidr-main">
-                            <span class="topmenu">Menu</span>
+                            <div class="topmenu">Menu</div>
                         </a>
                         
                     </div>
@@ -62,7 +62,7 @@
                         </nav>
                     </div>   
 
-                    <div class="logo-header" data-ev-name="home-link" data-ev-loc="header-nav">
+                    <div class="logo-header" style="padding: 0px 70px" data-ev-name="home-link" data-ev-loc="header-nav">
                         <a class="header-logo" style="" class="navbar-brand" href="<?php echo home_url(); ?>"><img class="logotyp" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="200"></a>
                     </div>
 

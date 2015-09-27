@@ -14,12 +14,12 @@
             <div class="small-12 large-6 columns">
                 <h3 class="menu-links">Länkar</h3>
                 <ul class="footer-links">
-                    <li><a style="color:#FFF;" href="http://uppskattat.se/annonsera-2/">Annonsering</a></li>				
-                    <li><a style="color:#FFF;" href="http://www.uppskattat.se">Startsidan</a></li>
+                    <li><a style="color:#FFF;" href="<?php echo get_site_url(); ?>/annonsera-2/">Annonsering</a></li>				
+                    <li><a style="color:#FFF;" href="<?php echo get_site_url(); ?>">Startsidan</a></li>
                     <li><a style="color:#FFF;" href="http://www.facebook.com/UppskattatSE">Facebook</a></li>
-                    <li><a style="color:#FFF;" href="http://uppskattat.se/info">Info</a></li>
-                    <li><a style="color:#FFF;" href="http://uppskattat.se/kontakta-oss/">Kontakta oss</a></li>
-                    <li><a style="color:#FFF;" href="http://uppskattat.se/cookies/">Info om cookies</a></li>
+                    <li><a style="color:#FFF;" href="<?php echo get_site_url(); ?>/info">Info</a></li>
+                    <li><a style="color:#FFF;" href="<?php echo get_site_url(); ?>/kontakta-oss/">Kontakta oss</a></li>
+                    <li><a style="color:#FFF;" href="<?php echo get_site_url(); ?>/cookies/">Info om cookies</a></li>
 
 
                 </ul>
