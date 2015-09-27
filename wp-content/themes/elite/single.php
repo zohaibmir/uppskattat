@@ -79,9 +79,9 @@ get_header();
                                             <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #2 - 980x240 (5202746) // created at: Aug 25, 2014 10:11:08 AM -->
                                             <div id="5202746"><noscript><a href="http://adserver.adtech.de/adlink|3.0|1568.1|5202746|0|2649|ADTECH;loc=300;alias=" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|1568.1|5202746|0|2649|ADTECH;loc=300;alias=" border="0" width="980" height="240"></a></noscript></div>
                                             <script>
-                    ADTECH.config.placements[5202746] = {sizeid: '2649', params: {alias: '', target: '_blank'}};
-                    ADTECH.enqueueAd(5202746);
-                    ADTECH.executeQueue();
+            ADTECH.config.placements[5202746] = {sizeid: '2649', params: {alias: '', target: '_blank'}};
+            ADTECH.enqueueAd(5202746);
+            ADTECH.executeQueue();
                                             </script>
                                         </div>
                                     </div>
@@ -164,13 +164,18 @@ get_header();
                             </div>
 
                             <div class="bottom-article-share row">
-                                <div class="columns large-6 medium-6 small-12 facebook-article-share-wrapper"><a href="#" class="fb-share article-share-btn-bottom fi-social-facebook" data-ev-name="share" data-ev-val="facebook" data-ev-loc="article-bottom"><span>Share</span></a>
-                                </div>
-                                <div class="columns large-6 medium-6 small-12 twitter-article-share-wrapper"><a href="javascript:site_content.twitter_share_this('http://elitedaily.com/news/martin-shkreli-increased-price-drug/1220772/', 'Meet The Man Who Increased Price Of A Life-Saving Drug By 5,500 Percent', 550, 350, false, '')" class="tw-share article-share-btn-bottom fi-social-twitter" data-ev-name="share" data-ev-val="twitter" data-ev-loc="article-bottom">
-                                        <span>Tweet</span>
+                                <div class="columns large-6 medium-6 small-12 facebook-article-share-wrapper">
+                                    <a rel="nofollow" data-shared="sharing-facebook-12055" class="fb-share article-share-btn-bottom fi-social-facebook" href="<?php the_permalink() ?>/?share=facebook" target="_blank" title="Dela på Facebook"><span>Facebook</span></a>
+                                    
+                                    
                                     </a>
                                 </div>
-                               
+                                <div class="columns large-6 medium-6 small-12 twitter-article-share-wrapper">                                    
+                                    <a rel="nofollow" data-shared="sharing-twitter-12055" class="tw-share article-share-btn-bottom fi-social-twitter" href="<?php the_permalink() ?>/?share=twitter" target="_blank" title="Klicka för att dela på Twitter">
+                                        <span>Twitter</span>
+                                    </a>
+                                </div>
+
                             </div>
 
 
@@ -180,11 +185,20 @@ get_header();
                             <br />
                             <br />
 
+                            <div class="article-wrapper">
+                                <?php
+                               // echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" [ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="10" max_pages="500"]]');
+                                ?>
+
+                            </div>
+
                         </article>
 
 
                     <?php endwhile; ?>
                 <?php endif; ?>
+
+
             </div>
         </div>
 

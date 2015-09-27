@@ -51,7 +51,7 @@ and open the template in the editor.
 
 .footer-links li a {
     font-size: 14px;
-    
+
 }
 
 .menu-links {
@@ -64,23 +64,30 @@ and open the template in the editor.
     .footer {
         padding-top: 100px;
     }
-    
+
     .menu-links  {
         margin-top: 25px;
         margin-left: 0px;
     }
-    
+
     .entry-content {
         padding: 15px;
     }
-    
+
     .page-fb-like.mobile-like-us {
         padding: 15px;
     }
-    
-    
-     .outer-content-wrapper {
+
+
+    .outer-content-wrapper {
         margin-top: 0px !important;
+    }
+    .bottom-article-share .twitter-article-share-wrapper {
+     padding-left: 15px;
+    }
+    
+    .bottom-article-share .facebook-article-share-wrapper {
+        padding-right: 15px;
     }
 }
 
@@ -100,5 +107,24 @@ and open the template in the editor.
     right: 50px;
     box-shadow: 0 0 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
     width: 16px;
+
+}
+
+.sd-content ul li {
     
+}
+
+.sd-content ul .share-facebook a {
+    
+}
+
+.share-facebook {    
+    
+}
+.share-facebook  a{
+        
+}
+
+.sharedaddy {
+    display: none !important;
 }
