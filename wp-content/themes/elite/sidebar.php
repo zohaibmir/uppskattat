@@ -14,12 +14,12 @@
                         <div class="topic-title-wrapper large-9 columns left">
                             <h3 class="topic-name">
                                 <a href="<?php the_permalink() ?>">
-                                    <?php echo substr(get_the_title(), 0, 15) . '...'; ?>
+                                    <?php the_title(); ?>
                                     <span class="topic-article-count">&nbsp;• <?php echo wpb_get_post_views(get_the_ID()); ?></span>
                                 </a>
                             </h3>
                             <h2 class="topic-article-title">
-                                <a href="<?php the_permalink() ?>"><?php the_content_rss(',', 0, '', 20); ?></a>
+                                <a href="<?php the_permalink() ?>"><?php echo get('byline'); ?></a>
                             </h2>
                         </div>
                         <div class="large-3 right">

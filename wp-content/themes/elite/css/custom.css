@@ -128,3 +128,7 @@ and open the template in the editor.
 .sharedaddy {
     display: none !important;
 }
+
+.topic-widget li .topic-name {
+    text-transform: none;
+}
