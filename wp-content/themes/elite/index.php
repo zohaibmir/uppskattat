@@ -51,7 +51,7 @@
                 $counter = 0;
                 $style1 = true;
                 $style2 = false;
-                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="10"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="false" button_label="Load More" posts_per_page="10" max_pages="500"]');
+                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="10"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label="Load More" posts_per_page="10" max_pages="500"]');
                 ?>
 
 
