@@ -287,7 +287,7 @@
       	
       			
          // If paging is false      
-      	$('.'+ alm.prefix + 'btn-wrap', alm.container).append('<button id="load-more" class="' + alm.prefix + 'load-more-btn more'+ alm.button_class +'">' + alm.button_label + '</button>');
+      	$('.'+ alm.prefix + 'btn-wrap', alm.container).append('<div id="infscr-loading" style="display: none;"><img alt="Loading..." src="/content/themes/strangelove/images/circle-loader.gif"><div> </div></div><button id="load-more" class="' + alm.prefix + 'load-more-btn more'+ alm.button_class +'">' + alm.button_label + '</button>');
 			alm.button = $('.alm-load-more-btn', alm.container);
 		}
 

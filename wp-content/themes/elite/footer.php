@@ -1,5 +1,6 @@
 </div>
 
+<?php if(!is_home()) { ?>
 <div class="footer">
     <div id="main-container" class="container">
         <div class="row">
@@ -34,7 +35,7 @@
         </div>
     </div>
 </div>
-
+<?php } ?>
 <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 <div id="fb-root"></div>
 

@@ -44,7 +44,7 @@
 
             <?php
             $args = array(
-                'posts_per_page' => 5,
+                'posts_per_page' => 10,
                 'offset' => 0,
                 'category' => '17',
                 'orderby' => '',

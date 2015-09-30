@@ -4,7 +4,7 @@ if($counter == 0 ) {
                 $style2 = false;
 }
 
- if ($counter == 3) {
+ if ($counter == 2) {
                             $style1 = false;
                             $style2 = true;
                         }
@@ -110,7 +110,7 @@ $first_name = get_user_meta((int) $post->post_author, 'first_name');
                                             </span>
                                         </div>
                                         
-                                       <time class="updated"><i class="gen-enclosed fi-clock"></i><?php echo  get_the_time('l, F jS, Y'); ?></time>						
+                                       <time class="updated"><i class="gen-enclosed fi-clock"></i> <?php echo  get_the_time('l, F jS, Y'); ?></time>						
                                     </div>
                                 </div>
                             </article>
