@@ -60,39 +60,6 @@ and open the template in the editor.
     margin-left: 15px;
 }
 
-@media only screen and (max-width:40em){
-    .footer {
-        padding-top: 100px;
-    }
-
-    .menu-links  {
-        margin-top: 25px;
-        margin-left: 0px;
-    }
-
-    .entry-content {
-        padding: 15px;
-    }
-
-    .page-fb-like.mobile-like-us {
-        padding: 15px;
-    }
-
-
-    .outer-content-wrapper {
-        margin-top: 0px !important;
-    }
-    .bottom-article-share .twitter-article-share-wrapper {
-        padding-left: 15px;
-    }
-
-    .bottom-article-share .facebook-article-share-wrapper {
-        padding-right: 15px;
-    }
-
-}
-
-
 
 .topmenu {
     color: #000;
@@ -211,7 +178,7 @@ and open the template in the editor.
 }
 
 .likt-btn {
-    height: 60px;
+    height: 58px;
     background-color: white;
     padding: 15px;
     border: solid 1px #000;
@@ -224,13 +191,83 @@ and open the template in the editor.
 
 .article-share-btn-bottom {
     padding: 12px;
+    font-size: 0px;
 }
 .article-share-btn-bottom span {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .article-share-btn-bottom:before {
-    font-size: 32px;
-    padding-right: 15px;
+    font-size: 30px;
+    padding-right: 5px;
 }
+
+
+.share-whatsapp {
+    background-color: #47a447;
+}
+@media only screen and (max-width:40em){
+    .footer {
+        padding-top: 100px;
+    }
+
+    .menu-links  {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    .entry-content {
+        padding: 15px;
+    }
+
+    .page-fb-like.mobile-like-us {
+        padding: 15px;
+    }
+
+
+    .outer-content-wrapper {
+        margin-top: 0px !important;
+    }
+    .bottom-article-share .twitter-article-share-wrapper {
+        padding-left: 15px;
+    }
+
+    .bottom-article-share .facebook-article-share-wrapper {
+        padding-right: 8px;
+    }
+
+    .article-share-btn-bottom:before {
+        font-size: 36px;
+        padding-right: 0px;
+        left: 4px;
+        top: 2px;
+        
+        
+    }
+    
+    .fb-mobile-share {
+        float: left;
+        
+    }
+    
+    .fb-mobile-share:before {
+        float: left;
+            font-size: 30px;
+    }
+
+    .article-share-btn-bottom span {
+        font-size: 13px;
+        font-weight: 700;
+        position: relative;
+        top: -4px;
+        display: inline;
+    }
+    
+    .bottom-fb {
+        font-size: 12px;
+    }
+}
+
+
+

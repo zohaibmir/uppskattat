@@ -181,7 +181,7 @@ get_header();
                                 <div class="row">
                                     <div class="columns large-12 medium-6 small-12 facebook-article-share-wrapper">
                                         <a rel="nofollow" data-shared="sharing-facebook-12055" class="fb-share article-share-btn-bottom fi-social-facebook" href="<?php the_permalink() ?>/?share=facebook" target="_blank" title="Dela på Facebook">
-                                            <span>Facebook</span>
+                                            <span>Dela på Facebook</span>
 
 
                                         </a>
@@ -189,7 +189,7 @@ get_header();
                                 </div>
                                 <br />
                                 <div class="row ">
-                                    <div class="small-4 columns">                                    
+                                    <div class="small-3 large-4 columns">                                    
                                         <a rel="nofollow" data-shared="sharing-twitter-12055" class="tw-share article-share-btn-bottom fi-social-twitter show-for-medium-up" href="<?php the_permalink() ?>/?share=twitter" target="_blank" title="Klicka för att dela på Twitter">
                                             <span  style="display: inline">Twitter</span>
                                         </a>
@@ -199,7 +199,7 @@ get_header();
                                         </a>
                                     </div>
 
-                                    <div class="columns large-4 medium-4 small-4">                                                                                                                      
+                                    <div class="small-3 large-4 columns">                                                                                                                      
                                         <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-medium-up" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest">
                                             <span  style="display: inline">Pinterest</span>
                                         </a>
@@ -209,12 +209,19 @@ get_header();
                                         </a>
                                     </div>
 
-                                    <div class="columns large-4 medium-4 small-4">                                    
+                                    <div class="small-3 large-4 columns">                                    
                                         <a rel="nofollow" data-shared="" class=" tw-share article-share-btn-bottom fi-mail share-email sd-button share-icon show-for-medium-up" href="<?php the_permalink() ?>/?share=email&amp;nb=1" target="_blank" title="Klicka för att maila detta till en vän">
                                             <span  style="display: inline">E-post</span>
                                         </a>
 
                                         <a rel="nofollow" data-shared="" class=" tw-share article-share-btn-bottom fi-mail share-email sd-button share-icon show-for-small-only" href="<?php the_permalink() ?>/?share=email&amp;nb=1" target="_blank" title="Klicka för att maila detta till en vän">
+
+                                        </a>
+                                    </div>
+                                    
+                                    
+                                    <div class="small-3 columns show-for-small-only">                                    
+                                        <a rel="nofollow" data-shared="" class=" tw-share article-share-btn-bottom fi-telephone share-whatsapp sd-button share-icon show-for-small-only" href="#" target="_blank" title="Klicka för att maila detta till en vän">
 
                                         </a>
                                     </div>
@@ -247,7 +254,7 @@ get_header();
                                         </div>
                                     </div>
                                     <div class="small-6 columns facebook-article-share-wrapper">
-                                        <a rel="nofollow" data-shared="sharing-facebook-12055" class="fb-share article-share-btn-bottom fi-social-facebook" href="<?php the_permalink() ?>/?share=facebook" target="_blank" title="Dela på Facebook"><span>Dela på Facebook</span></a>
+                                        <a rel="nofollow" data-shared="sharing-facebook-12055" class="fb-share fb-mobile-share article-share-btn-bottom fi-social-facebook" href="<?php the_permalink() ?>/?share=facebook" target="_blank" title="Dela på Facebook"><span class="bottom-sh">Dela på Facebook</span></a>
 
 
                                         </a>
