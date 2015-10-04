@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 .main-nav .logo-header {
-    margin-top: 7px;
+    margin-top: 0px;
     position: absolute;
 }
 
@@ -211,12 +211,26 @@ and open the template in the editor.
 }
 
 .likt-btn {
-    height: 47px;
+    height: 60px;
     background-color: white;
     padding: 15px;
+    border: solid 1px #000;
 }
 
 #spu-6126  {
     width: 500px !important;
     text-align: center !important;
+}
+
+.article-share-btn-bottom {
+    padding: 12px;
+}
+.article-share-btn-bottom span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.article-share-btn-bottom:before {
+    font-size: 32px;
+    padding-right: 15px;
 }

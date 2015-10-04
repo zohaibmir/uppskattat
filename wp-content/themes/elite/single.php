@@ -247,7 +247,7 @@ get_header();
                                         </div>
                                     </div>
                                     <div class="small-6 columns facebook-article-share-wrapper">
-                                        <a rel="nofollow" data-shared="sharing-facebook-12055" class="fb-share article-share-btn-bottom fi-social-facebook" href="<?php the_permalink() ?>/?share=facebook" target="_blank" title="Dela på Facebook"><span>Facebook</span></a>
+                                        <a rel="nofollow" data-shared="sharing-facebook-12055" class="fb-share article-share-btn-bottom fi-social-facebook" href="<?php the_permalink() ?>/?share=facebook" target="_blank" title="Dela på Facebook"><span>Dela på Facebook</span></a>
 
 
                                         </a>
