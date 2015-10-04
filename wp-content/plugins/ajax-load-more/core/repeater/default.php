@@ -23,7 +23,9 @@ $first_name = get_user_meta((int) $post->post_author, 'first_name');
                                 <header class="post-header large-12 columns">
                                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); echo $counter?></a></h2>
                                     <div class="entry-content">
-                                        <p><?php //echo get('byline'); ?></p>
+                                        <p>
+                                            <?php echo get_post_meta( get_the_ID(), 'byline', true);//get('byline'); ?>
+                                        </p>
                                     </div>
                                 </header>
                                 <div class="sub-text large-12 columns">

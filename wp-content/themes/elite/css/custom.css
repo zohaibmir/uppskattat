@@ -83,12 +83,13 @@ and open the template in the editor.
         margin-top: 0px !important;
     }
     .bottom-article-share .twitter-article-share-wrapper {
-     padding-left: 15px;
+        padding-left: 15px;
     }
-    
+
     .bottom-article-share .facebook-article-share-wrapper {
         padding-right: 15px;
     }
+
 }
 
 
@@ -111,18 +112,18 @@ and open the template in the editor.
 }
 
 .sd-content ul li {
-    
+
 }
 
 .sd-content ul .share-facebook a {
-    
+
 }
 
 .share-facebook {    
-    
+
 }
 .share-facebook  a{
-        
+
 }
 
 .sharedaddy {
@@ -134,9 +135,71 @@ and open the template in the editor.
 }
 
 .ajax-load-more-wrap.blue button.alm-load-more-btn {
-    
+
 }
 
 .loading {
+
+}
+
+
+
+
+
+
+.buzfeed {
+    margin-top: 70px;
+}
+
+.previous-btn a, .next-btn a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    background: #3b5998;
+    color: #fff;
+    min-width: 120px;
+}
+
+.next-btn {
+    text-align: right;
+}
+
+.share-pinterest {
+    background: #cb2027 !important;
+}
+
+.share-pinterest:hover {
+    background: #cb2027 !important;
+}
+
+.share-email {
+    background: #ffba00;
     
+}
+.share-email:hover {
+    background: #ffba00;
+}
+
+
+.bottom {
+    bottom: 0;
+    top: auto;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 500;
+}
+
+.fixed .row {
+    max-width: 66.0rem;
+    margin: 0 auto;
+}
+
+.likt-btn {
+    height: 47px;
+    background-color: white;
+    padding: 15px;
 }

@@ -33,31 +33,28 @@
                         <a class="topbar" id="responsive-menu-button" href="#sidr-main">
                             <div class="topmenu">Menu</div>
                         </a>
-                        
+
                     </div>
                     <div id="navigation">
                         <nav class="nav">
                             <ul class="mob-nav show-for-medium-up">
-                                <?php
-                                $terms = get_terms(
-                                        array('post_tag'), array(
-                                    'orderby' => 'count',
-                                    'hide_empty' => 0
-                                        )
-                                        )
-                                ?>
-                                <?php if (!empty($terms) && !is_wp_error($terms)) : ?>
-                                    <?php foreach ($terms as $term) : ?>
-                                        <li id="menu-item-1131977" class="">                                            
-                                            <a href="<?php echo get_term_link($term); ?>" data-ev-loc="header-nav" data-ev-name="nav-main" data-ev-val="love hurts">
-                                                <?php echo $term->name; ?>
-                                            </a>                                           
+                                <li>                     
+                                    <a href="<?php echo get_site_url(); ?>">
+                                        Hem
+                                    </a>
+                                </li>
 
-                                        </li>
+                                <li>                                            
+                                    <a href="<?php echo get_site_url(); ?>/info">
+                                        Info
+                                    </a>
+                                </li>
 
-
-                                    <?php endforeach; ?>
-                                <?php endif; ?>
+                                <li>
+                                    <a href="<?php echo get_site_url(); ?>/kontakta-oss/">
+                                        Kontakta oss
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                     </div>   
@@ -83,26 +80,39 @@
                         <!-- HOME NAVIGATION -->
                         <div class="home-nav large-12 show-for-medium-up">
                             <ul class="topic-nav">
+
+                                <!--li>                     
+                                    <a href="<?php echo get_site_url(); ?>">
+                                        Hem
+                                    </a>
+                                </li>
+
+                                <li>                                            
+                                    <a href="<?php echo get_site_url(); ?>/info">
+                                        Info
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="<?php echo get_site_url(); ?>/kontakta-oss/">
+                                        Kontakta oss
+                                    </a>
+                                </li-->
                                 <?php
-                                $terms = get_terms(
-                                        array('post_tag'), array(
-                                    'orderby' => 'count',
-                                    'hide_empty' => 0
-                                        )
-                                        )
+                                //$terms = get_terms(array('post_tag'), array('orderby' => 'count','hide_empty' => 0))
                                 ?>
-                                <?php if (!empty($terms) && !is_wp_error($terms)) : ?>
-                                    <?php foreach ($terms as $term) : ?>
-                                        <li id="menu-item-1131977" class="">                                            
-                                            <a href="<?php echo get_term_link($term); ?>" data-ev-loc="header-nav" data-ev-name="nav-main" data-ev-val="love hurts">
-                                                <?php echo $term->name; ?>
-                                            </a>                                           
+                                <?php /* if (!empty($terms) && !is_wp_error($terms)) : ?>
+                                  <?php foreach ($terms as $term) : ?>
+                                  <li id="menu-item-1131977" class="">
+                                  <a href="<?php echo get_term_link($term); ?>" data-ev-loc="header-nav" data-ev-name="nav-main" data-ev-val="love hurts">
+                                  <?php echo $term->name; ?>
+                                  </a>
 
-                                        </li>
+                                  </li>
 
 
-                                    <?php endforeach; ?>
-                                <?php endif; ?>
+                                  <?php endforeach; ?>
+                                  <?php endif; */ ?>
                             </ul>
                             <ul class="util-nav show-for-medium-up">
 
@@ -132,3 +142,5 @@
                 </div>
             </div>
         </nav>
+
+        

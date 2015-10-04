@@ -1,5 +1,17 @@
 <?php get_header(); ?>
 
+<div class="buzfeed show-for-medium-up">
+    <div class="row">
+        <div class="small-12 columns">
+            
+            <?php 
+             echo do_shortcode('[grid name="home_posts"]');
+            ?>
+           
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="small-12 columns show-for-medium-up">
         <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #1 - 980x240 (5202745) // created at: Aug 25, 2014 10:11:08 AM -->
@@ -29,6 +41,7 @@
 
 
 
+
 <section class="outer-content-wrapper">
     <div id="dfp_adhesion" class="ad-mobile-leaderboard-wrapper row"></div>
     <div id="dfp_tablet_leaderboard_top" class="ad-tablet-leaderboard-wrapper"></div>
@@ -51,7 +64,7 @@
                 $counter = 0;
                 $style1 = true;
                 $style2 = false;
-                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="10"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label="Load More" posts_per_page="10" max_pages="500"]');
+                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="10"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label="Load More" posts_per_page="20" max_pages="500"]');
                 ?>
 
 
