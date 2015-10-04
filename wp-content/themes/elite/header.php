@@ -14,7 +14,7 @@
     <link rel='stylesheet' id='foundation-css'  href='<?php bloginfo('template_directory'); ?>/css/foundation.css' type='text/css' media='all' />
     <link href="<?php bloginfo('template_directory'); ?>/css/custom.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo('template_directory'); ?>/foundation-icons/foundation-icons.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/jquery.sidr.dark.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/jquery.sidr.light.css">
     <?php wp_head(); ?>
 </head>
 

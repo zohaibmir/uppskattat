@@ -3,11 +3,11 @@
 <div class="buzfeed show-for-medium-up">
     <div class="row">
         <div class="small-12 columns">
-            
-            <?php 
-             echo do_shortcode('[grid name="home_posts"]');
+
+            <?php
+            echo do_shortcode('[grid name="home_posts"]');
             ?>
-           
+
         </div>
     </div>
 </div>
@@ -64,10 +64,21 @@
                 $counter = 0;
                 $style1 = true;
                 $style2 = false;
-                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="10"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label="Load More" posts_per_page="20" max_pages="500"]');
+                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="20"  scroll_distance="50" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label=" " posts_per_page="20" max_pages="500"]');
                 ?>
 
-
+                <!--div class="loader">
+                    <div class="row">
+                        <div class="small-12 text-center">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/circle-loader.gif" alt="Loader" />
+                        </div>
+                    </div>
+                </div-->
+                
+                <br />                            
+                            <br />
+                            <br />
+                            <br />
             </div>
         </div>
 
@@ -76,5 +87,7 @@
         </div>
     </div>
 </section>
+
+
 
 <?php get_footer(); ?>

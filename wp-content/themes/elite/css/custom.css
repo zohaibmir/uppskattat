@@ -140,6 +140,18 @@ and open the template in the editor.
 
 .loading {
 
+    background: url("../images/circle-loader.gif") no-repeat center center;
+    width: 70px;
+    height: 70px;
+    margin: 6px;		            
+    display: inline-block;
+    z-index: 0;
+    content: '';
+    position: absolute;    
+    overflow: hidden;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 
 
@@ -174,7 +186,7 @@ and open the template in the editor.
 
 .share-email {
     background: #ffba00;
-    
+
 }
 .share-email:hover {
     background: #ffba00;
@@ -202,4 +214,9 @@ and open the template in the editor.
     height: 47px;
     background-color: white;
     padding: 15px;
+}
+
+#spu-6126  {
+    width: 500px !important;
+    text-align: center !important;
 }

@@ -190,20 +190,32 @@ get_header();
                                 <br />
                                 <div class="row ">
                                     <div class="small-4 columns">                                    
-                                        <a rel="nofollow" data-shared="sharing-twitter-12055" class="tw-share article-share-btn-bottom fi-social-twitter" href="<?php the_permalink() ?>/?share=twitter" target="_blank" title="Klicka för att dela på Twitter">
-                                            <span class="show-for-medium-up" style="display: inline !important;">Twitter</span>
+                                        <a rel="nofollow" data-shared="sharing-twitter-12055" class="tw-share article-share-btn-bottom fi-social-twitter show-for-medium-up" href="<?php the_permalink() ?>/?share=twitter" target="_blank" title="Klicka för att dela på Twitter">
+                                            <span  style="display: inline">Twitter</span>
+                                        </a>
+
+                                        <a rel="nofollow" data-shared="sharing-twitter-12055" class="tw-share article-share-btn-bottom fi-social-twitter show-for-small-only" href="<?php the_permalink() ?>/?share=twitter" target="_blank" title="Klicka för att dela på Twitter">
+
                                         </a>
                                     </div>
 
                                     <div class="columns large-4 medium-4 small-4">                                                                                                                      
-                                        <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest">
-                                            <span class="show-for-medium-up" style="display: inline !important;">Pinterest</span>
+                                        <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-medium-up" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest">
+                                            <span  style="display: inline">Pinterest</span>
+                                        </a>
+
+                                        <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-small-only" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest">
+
                                         </a>
                                     </div>
 
                                     <div class="columns large-4 medium-4 small-4">                                    
-                                        <a rel="nofollow" data-shared="" class=" tw-share article-share-btn-bottom fi-mail share-email sd-button share-icon" href="<?php the_permalink() ?>/?share=email&amp;nb=1" target="_blank" title="Klicka för att maila detta till en vän">
-                                            <span class="show-for-medium-up" style="display: inline !important;">E-post</span>
+                                        <a rel="nofollow" data-shared="" class=" tw-share article-share-btn-bottom fi-mail share-email sd-button share-icon show-for-medium-up" href="<?php the_permalink() ?>/?share=email&amp;nb=1" target="_blank" title="Klicka för att maila detta till en vän">
+                                            <span  style="display: inline">E-post</span>
+                                        </a>
+
+                                        <a rel="nofollow" data-shared="" class=" tw-share article-share-btn-bottom fi-mail share-email sd-button share-icon show-for-small-only" href="<?php the_permalink() ?>/?share=email&amp;nb=1" target="_blank" title="Klicka för att maila detta till en vän">
+
                                         </a>
                                     </div>
                                 </div>
@@ -254,11 +266,14 @@ get_header();
                                 $counter = 0;
                                 $style1 = true;
                                 $style2 = false;
-                                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="10"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label="Load More" posts_per_page="20" max_pages="500"]');
+                                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="20"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label=" " posts_per_page="20" max_pages="500"]');
                                 ?>
 
                             </div>
-
+                            <br />                            
+                            <br />
+                            <br />
+                            <br />
                         </article>
 
 
