@@ -4,30 +4,32 @@
         <h4><a href="topics">Popular</a></h4>
         <ul>
             <?php
-            $popularpost = new WP_Query(array('posts_per_page' => 5, 'meta_key' => 'wpb_post_views_count', 'orderby' => 'meta_value_num', 'order' => 'DESC'));
+            $popularpost = new WP_Query(array('posts_per_page' => 10, 'meta_key' => 'wpb_post_views_count', 'orderby' => 'meta_value_num', 'order' => 'DESC'));
             while ($popularpost->have_posts()) : $popularpost->the_post();
                 ?>
 
 
                 <li class="widget-feat-storyline-item feat-storyline-0">
                     <div class="topic-inner-wrapper">
-                        <div class="topic-title-wrapper large-9 columns left">
-                            <h3 class="topic-name">
+                        <div class="topic-title-wrapper small-12 columns left">
+                            <div class="side-thumbnail" style="padding-bottom: 10px;">
                                 <a href="<?php the_permalink() ?>">
-                                    <?php the_title(); ?>
-                                    <span class="topic-article-count">&nbsp;• <?php echo wpb_get_post_views(get_the_ID()); ?></span>
+                                    <?php the_post_thumbnail('medium') ?>
                                 </a>
-                            </h3>
-                            <h2 class="topic-article-title">
-                                <a href="<?php the_permalink() ?>"><?php echo get('byline'); ?></a>
-                            </h2>
+                            </div>
+                            
+                            <h4>
+                                <a href="<?php the_permalink() ?>">
+                                    <?php the_title(); ?>                                    
+                                </a>
+                            </h4>
+                            
+                            <!--span class="topic-article-count" style="font-size: 12px"><?php echo wpb_get_post_views(get_the_ID()); ?></span-->
+                           
                         </div>
-                        <div class="large-3 right">
-                            <a href="<?php the_permalink() ?>">
-                                <?php the_post_thumbnail('thumbnail') ?>
-                            </a>
-                        </div>
+                       
                     </div>
+                    
                 </li>
 
 
@@ -38,12 +40,12 @@
         </ul>
     </div>
 
-    <div class="trending-widget-sidebar" style="position: relative; top: auto;">
+    <!--div class="trending-widget-sidebar" style="position: relative; top: auto;">
         <h4 class="single-topic-name">Featured Now</h4>
         <ul class="trending-widget-list">
 
             <?php
-            $args = array(
+           /* $args = array(
                 'posts_per_page' => 10,
                 'offset' => 0,
                 'category' => '17',
@@ -66,15 +68,15 @@
 
                 <li style="display: block;">
                     <a href="<?php the_permalink() ?>">
-                         <?php the_title(); ?>
+                        <?php the_title(); ?>
                     </a>
                 </li>
 
 
                 <?php
             endforeach;
-            wp_reset_postdata();
+            wp_reset_postdata();*/
             ?>           
         </ul>
-    </div>
+    </div-->
 </div>

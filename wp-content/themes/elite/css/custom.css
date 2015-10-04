@@ -205,7 +205,8 @@ and open the template in the editor.
 
 
 .share-whatsapp {
-    background-color: #47a447;
+    background-color: rgb(77,194,71);
+    
 }
 @media only screen and (max-width:40em){
     .footer {
@@ -242,18 +243,19 @@ and open the template in the editor.
         padding-right: 0px;
         left: 4px;
         top: 2px;
-        
-        
+
+
     }
-    
+
     .fb-mobile-share {
         float: left;
-        
+
     }
-    
+
     .fb-mobile-share:before {
         float: left;
-            font-size: 30px;
+        font-size: 30px;
+        
     }
 
     .article-share-btn-bottom span {
@@ -263,7 +265,7 @@ and open the template in the editor.
         top: -4px;
         display: inline;
     }
-    
+
     .bottom-fb {
         font-size: 12px;
     }
