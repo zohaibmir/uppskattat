@@ -196,18 +196,33 @@ and open the template in the editor.
 .article-share-btn-bottom span {
     font-size: 16px;
     font-weight: 700;
+    top: -3px;
+    position: relative;
 }
 
 .article-share-btn-bottom:before {
     font-size: 30px;
     padding-right: 5px;
+    top: 2px !important;
 }
 
 
 .share-whatsapp {
     background-color: rgb(77,194,71);
-    
+
 }
+
+.share-whatsapp:hover {
+    background-color: rgb(77,194,71);
+}
+body.home .outer-content-wrapper {
+    margin-top: 0px;
+}
+
+.article-share-btn:before {
+    top: 8px;
+}
+
 @media only screen and (max-width:40em){
     .footer {
         padding-top: 100px;
@@ -219,7 +234,7 @@ and open the template in the editor.
     }
 
     .entry-content {
-        padding: 15px;
+        padding: 0px;
     }
 
     .page-fb-like.mobile-like-us {
@@ -239,35 +254,46 @@ and open the template in the editor.
     }
 
     .article-share-btn-bottom:before {
-        font-size: 36px;
+        font-size: 40px;
         padding-right: 0px;
         left: 4px;
-        top: 2px;
+        top: 0px !important;
 
 
     }
 
     .fb-mobile-share {
         float: left;
-
+        
     }
-
+    .fb-mobile-share span {
+        top: 0px !important;
+    }
     .fb-mobile-share:before {
         float: left;
         font-size: 30px;
-        
+        left: 20px;
+        top: 4px !important;
+
     }
 
     .article-share-btn-bottom span {
         font-size: 13px;
         font-weight: 700;
         position: relative;
-        top: -4px;
+        top: -10px;
         display: inline;
     }
 
     .bottom-fb {
         font-size: 12px;
+    }
+
+    .article-share-btn-bottom {
+        padding: 10px;
+    }
+    .mobile-article-wrapper {
+        padding: 0px !important;
     }
 }
 

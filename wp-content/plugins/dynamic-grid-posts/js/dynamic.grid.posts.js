@@ -538,10 +538,12 @@
 		
 		var html = '';
 		if (this.content.title != undefined) {
-			html += '		<div class="dg-post-title">' + this.content.title + '</div>';
+			//html += '		<div class="dg-post-title">' + this.content.title + '</div>';
+                     //   html += '		<div class="dg-post-title"></div>';
 		}
 		if (this.content.excerpt != undefined) {
-			html += '		<div class="dg-post-excerpt">' + this.content.excerpt + '</div>';
+			//html += '		<div class="dg-post-excerpt">' + this.content.excerpt + '</div>';
+                        html += '		<div class="dg-post-excerpt">' + this.content.title + '</div>';
 		}
 		html += '<div class="dg-post-excerpt-overlay"></div>';
 		if (this.content.link != undefined) {
