@@ -543,7 +543,7 @@
 		}
 		if (this.content.excerpt != undefined) {
 			//html += '		<div class="dg-post-excerpt">' + this.content.excerpt + '</div>';
-                        html += '		<div class="dg-post-excerpt">' + this.content.title + '</div>';
+                        html += '		<div class="dg-post-excerpt">' + this.content.title.substring(0,50) + '...</div>';
 		}
 		html += '<div class="dg-post-excerpt-overlay"></div>';
 		if (this.content.link != undefined) {

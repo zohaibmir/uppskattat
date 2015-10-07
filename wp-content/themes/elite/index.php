@@ -64,7 +64,7 @@
                 $counter = 0;
                 $style1 = true;
                 $style2 = false;
-                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="20"  scroll_distance="50" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label=" " posts_per_page="20" max_pages="500"]');
+                echo do_shortcode('[ajax_load_more cache="true" cache_id="1758095603" preloaded="true" preloaded_amount="15" post_type="post" category="bilder,djur,okategoriserade,videos" category__not_in="1" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" button_label=" " max_pages="150" container_type="div"]');
                 ?>
 
                 <!--div class="loader">

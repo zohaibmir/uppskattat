@@ -190,7 +190,7 @@ and open the template in the editor.
     text-align: center !important;
 }
 
-.article-share-btn-bottom {
+.article-share-btn-bottom, .horizontal-article time {
     padding: 12px;
     font-size: 0px;
 }
@@ -224,6 +224,10 @@ body.home .outer-content-wrapper {
     top: 8px;
 }
 
+
+.marquee-article time:before  {
+    font-size: 0px !important;
+}
 @media only screen and (max-width:40em){
     .footer {
         padding-top: 100px;
@@ -300,3 +304,7 @@ body.home .outer-content-wrapper {
 
 
 
+
+.small-12.columns.previous-btn.page-links a:last-child  {
+    float: right;
+}

@@ -87,7 +87,7 @@
                         <div class="home-nav large-12 show-for-medium-up">
                             <ul class="topic-nav">
 
-                                <!--li>                     
+                                <li>                     
                                     <a href="<?php echo get_site_url(); ?>">
                                         Hem
                                     </a>
@@ -98,12 +98,12 @@
                                         Info
                                     </a>
                                 </li>
-                                
+
                                 <li>
                                     <a href="<?php echo get_site_url(); ?>/kontakta-oss/">
                                         Kontakta oss
                                     </a>
-                                </li-->
+                                </li>
                                 <?php
                                 //$terms = get_terms(array('post_tag'), array('orderby' => 'count','hide_empty' => 0))
                                 ?>

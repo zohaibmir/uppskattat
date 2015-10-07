@@ -182,16 +182,38 @@ get_header();
                             <div class="entry-content large-centered" itemprop="articleBody">
                                 <?php the_content() ?>
                             </div>
-                            
                             <div class="row">
-                                <div class="small-6 columns previous-btn">                                        
-                                    <?php previous_post_link('%link', 'Föregående'); ?>
-                                </div>
-                                <div class="small-6 columns  next-btn">                                        
-                                    <?php next_post_link('%link', 'Nästa'); ?>
-                                </div>
+
+
+                                <?php
+                                $defaults = array(
+                                    'before' => '<div class="small-6 columns previous-btn page-links">',
+                                    'after' => '</div>',
+                                    'link_before' => '',
+                                    'link_after' => '',
+                                    'next_or_number' => 'next',
+                                    'separator' => ' ',
+                                    'nextpagelink' => __('Nästa'),
+                                    'previouspagelink' => __('Föregående'),
+                                    'pagelink' => '%',
+                                    'echo' => 1
+                                );
+
+
+                                wp_link_pages($defaults);
+                                ?>                               
 
                             </div>
+
+                            <!--div class="row">
+                                <div class="small-6 columns previous-btn">                                        
+                            <?php previous_post_link('%link', 'Föregående'); ?>
+                                </div>
+                                <div class="small-6 columns  next-btn">                                        
+                            <?php next_post_link('%link', 'Nästa'); ?>
+                                </div>
+
+                            </div-->
                             <br />
 
                             <div class="bottom-article-share">
@@ -201,18 +223,18 @@ get_header();
                                     </div>                                   
                                 </div>
                                 <br />
-                                <div class="row ">
-                                    <div class="small-3 large-4 columns">                                    
+                                <div class="row collapse">
+                                    <div class="small-3 large-4 columns" style="padding: 0 5px">                                    
                                         <a rel="nofollow" data-shared="sharing-twitter-12055" class="share-twitter sd-button tw-share article-share-btn-bottom fi-social-twitter no-text show-for-medium-up" href="<?php echo get_the_permalink() ?>/?share=twitter&amp;nb=1" target="_blank" title="Klicka för att dela på Twitter"><span>Tweet</span><span class="sharing-screen-reader-text">Klicka för att dela på Twitter (Öppnas i ett nytt fönster)</span></a>
                                         <a rel="nofollow" data-shared="sharing-twitter-12055" class="share-twitter sd-button tw-share article-share-btn-bottom fi-social-twitter no-text show-for-small-only" href="<?php echo get_the_permalink() ?>/?share=twitter&amp;nb=1" target="_blank" title="Klicka för att dela på Twitter"><span class="sharing-screen-reader-text">Klicka för att dela på Twitter (Öppnas i ett nytt fönster)</span></a>
                                     </div>
 
-                                    <div class="small-3 large-4 columns">                                                                                                                      
+                                    <div class="small-3 large-4 columns" style="padding: 0 5px">                                                                                                                      
                                         <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-medium-up" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest"><span  style="display: inline">Pinterest</span></a>
                                         <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-small-only" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest"></a>
                                     </div>
 
-                                    <div class="small-3 large-4 columns">                                    
+                                    <div class="small-3 large-4 columns" style="padding: 0 5px">                                    
                                         <a rel="nofollow" data-shared="" class="share-email sd-button tw-share article-share-btn-bottom fi-mail  show-for-medium-up" href="mailto:info@notedmedia.se?subject=Inbjudan till uppskattat&body=<?php echo get_the_title() ?>" target="_blank"><span  style="display: inline">E-post</span>
                                         </a>
 
@@ -222,9 +244,9 @@ get_header();
                                     </div>
 
 
-                                    <div class="small-3 columns show-for-small-only">                                    
-                                        <a class="tw-share article-share-btn-bottom fi-telephone share-whatsapp sd-button share-icon show-for-small-only" href="whatsapp://send?text=<?php echo get_the_permalink() ?>" data-action="share/whatsapp/share">
-
+                                    <div class="small-3 columns show-for-small-only" style="padding: 0 5px">                                    
+                                        <a class="tw-share article-share-btn-bottom share-whatsapp sd-button share-icon show-for-small-only" href="whatsapp://send?text=<?php echo get_the_permalink() ?>" data-action="share/whatsapp/share">
+                                            <img src="<?php bloginfo('template_directory'); ?>/images/whatsapp1.png" width="40" />
                                         </a>
                                     </div>
                                 </div>
@@ -262,7 +284,7 @@ get_header();
                                 $counter = 0;
                                 $style1 = true;
                                 $style2 = false;
-                                echo do_shortcode('[ajax_load_more post_type="post" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" preloaded="true" preloaded_amount="20"  scroll_distance="0" transition="fade" images_loaded="true" cache="true" pause="false" scroll="true" button_label=" " posts_per_page="20" max_pages="500"]');
+                                echo do_shortcode('[ajax_load_more cache="true" cache_id="1758095603" preloaded="true" preloaded_amount="15" post_type="post" category="bilder,djur,okategoriserade,videos" category__not_in="1" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" button_label=" " max_pages="150" container_type="div"]');
                                 ?>
 
                             </div>                          
