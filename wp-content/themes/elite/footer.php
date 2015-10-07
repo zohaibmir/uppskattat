@@ -1,6 +1,6 @@
 </div>
 
-<?php if(!is_home() && 1 == 2) { ?>
+<?php if(!is_home() && is_page()) { ?>
 <div class="footer">
     <div id="main-container" class="container">
         <div class="row">

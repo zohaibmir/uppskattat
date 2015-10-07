@@ -31,13 +31,19 @@
                 <div class="small-12 columns">
                     <div id="mobile-header" style="position: absolute;left: 20px;top: 5px;">
                         <a class="topbar" id="responsive-menu-button" href="#sidr-main">
-                            <div class="topmenu">Menu</div>
+                            <div class="topmenu"><i class="fi-list"></i></div>
                         </a>
 
                     </div>
                     <div id="navigation">
+
                         <nav class="nav">
                             <ul class="mob-nav show-for-medium-up">
+                                <li>
+                                    <a href="#" class="nav-title" style="color: #333333;">
+                                        Sections
+                                    </a>
+                                </li>
                                 <li>                     
                                     <a href="<?php echo get_site_url(); ?>">
                                         Hem
@@ -59,7 +65,7 @@
                         </nav>
                     </div>   
 
-                    <div class="logo-header" style="padding: 0px 70px" data-ev-name="home-link" data-ev-loc="header-nav">
+                    <div class="logo-header" style="text-align: center" data-ev-name="home-link" data-ev-loc="header-nav">
                         <a class="header-logo" style="" class="navbar-brand" href="<?php echo home_url(); ?>"><img class="logotyp" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="200"></a>
                     </div>
 
@@ -143,4 +149,3 @@
             </div>
         </nav>
 
-        

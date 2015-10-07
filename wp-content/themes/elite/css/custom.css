@@ -62,11 +62,12 @@ and open the template in the editor.
 
 
 .topmenu {
-    color: #000;
-    padding-left: 20px;
+    color: #999;
+    padding-left: 0px;
+    font-size: 17px;
 }
 .topmenu::after {
-    content: '';
+/*    content: '';
     display: block;
     height: 0;
     position: absolute;
@@ -74,7 +75,7 @@ and open the template in the editor.
     top: 50%;
     right: 50px;
     box-shadow: 0 0 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
-    width: 16px;
+    width: 16px;*/
 
 }
 
