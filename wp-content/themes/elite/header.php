@@ -26,56 +26,58 @@
 
     <div class="body-wrapper">
 
-        <div class="show-for-medium-down" style="margin-top: 20px;">  
-            <div class="row">
-                <div class="small-12 columns">
-                    <div id="mobile-header" style="position: absolute;left: 20px;top: 5px;">
-                        <a class="topbar" id="responsive-menu-button" href="#sidr-main">
-                            <div class="topmenu"><i class="fi-list"></i></div>
-                        </a>
+        <div class="nav-wrapper row show-for-medium-down" style="position: relative;min-height: 30px;">  
+            <div style="position: fixed;z-index: 50;width: 100%;background: #f9f9f9;padding: 15px 0px;">
+                <div class="row nav-shadow">
+                    <div class="small-12 columns">
+                        <div id="mobile-header" style="position: absolute;left: 20px;top: 5px;">
+                            <a class="topbar" id="responsive-menu-button" href="#sidr-main">
+                                <div class="topmenu"><i class="fi-list"></i></div>
+                            </a>
 
-                    </div>
-                    <div id="navigation">
+                        </div>
+                        <div id="navigation">
 
-                        <nav class="nav">
-                            <ul class="mob-nav show-for-medium-up">
-                                <li>
-                                    <a href="#" class="nav-title" style="color: #333333;">
-                                        Sections
-                                    </a>
-                                </li>
-                                <li>                     
-                                    <a href="<?php echo get_site_url(); ?>">
-                                        Hem
-                                    </a>
-                                </li>
+                            <nav class="nav">
+                                <ul class="mob-nav show-for-medium-up">
+                                    <li>
+                                        <a href="#" class="nav-title" style="color: #333333;">
+                                            Sections
+                                        </a>
+                                    </li>
+                                    <li>                     
+                                        <a href="<?php echo get_site_url(); ?>">
+                                            Hem
+                                        </a>
+                                    </li>
 
-                                <li>                                            
-                                    <a href="<?php echo get_site_url(); ?>/info">
-                                        Info
-                                    </a>
-                                </li>
+                                    <li>                                            
+                                        <a href="<?php echo get_site_url(); ?>/info">
+                                            Info
+                                        </a>
+                                    </li>
 
-                                <li>
-                                    <a href="<?php echo get_site_url(); ?>/kontakta-oss/">
-                                        Kontakta oss
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>   
+                                    <li>
+                                        <a href="<?php echo get_site_url(); ?>/kontakta-oss/">
+                                            Kontakta oss
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>   
 
-                    <div class="logo-header" style="text-align: center" data-ev-name="home-link" data-ev-loc="header-nav">
-                        <a class="header-logo" style="" class="navbar-brand" href="<?php echo home_url(); ?>"><img class="logotyp" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="200"></a>
+                        <div class="logo-header" style="text-align: center" data-ev-name="home-link" data-ev-loc="header-nav">
+                            <a class="header-logo" style="" class="navbar-brand" href="<?php echo home_url(); ?>"><img class="logotyp" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="200"></a>
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
         </div>
-        <nav class="main-nav show-for-large-up">
+        <nav class="main-nav show-for-large-up ">
             <div class="nav-outer-wrapper large-12">
-                <div class="nav-wrapper row">
+                <div class="nav-wrapper row nav-wrapper row nav-shadow">
                     <div class="nav-inner-wrapper columns">
 
                         <div class="logo-header" data-ev-name="home-link" data-ev-loc="header-nav">

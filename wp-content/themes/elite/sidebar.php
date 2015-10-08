@@ -7,7 +7,7 @@
         $popularpost = new WP_Query(array('posts_per_page' => 10, 'meta_key' => 'wpb_post_views_count', 'orderby' => 'meta_value_num', 'order' => 'DESC'));
         while ($popularpost->have_posts()) : $popularpost->the_post();
             ?>
-        <article id="related-card-2" class="related-card bottom-one-third-article" style="border: none">
+            <article id="related-card-2" class="related-card bottom-one-third-article" style="border: none">
                 <a class="thumb-img-wrapper" href="<?php the_permalink() ?>" data-ev-name="article-link" data-ev-val="http://elitedaily.com/life/no-dream-big-5-amazing-life-lessons-can-learn-toddlers/1234869/" data-ev-loc="related-articles">
                     <?php the_post_thumbnail('medium') ?>
                 </a>
@@ -19,9 +19,9 @@
                         </a>
                     </h2>
                 </header>
-               
+
             </article>
-            
+
             <!--li class="widget-feat-storyline-item feat-storyline-0">
                 <div class="topic-inner-wrapper">
                     <div class="topic-title-wrapper small-12 columns left">
@@ -52,44 +52,13 @@
         ?>          
 
     </div>
+    <div class="sidebaradd">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Infinity -->
+        <insclass="adsbygoogle"   style="display:inline-block;width:300px;height:600px"  data-ad-client="ca-pub-8985052866235642"                data-ad-slot="9816842213"></insclass>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
 
-    <!--div class="trending-widget-sidebar" style="position: relative; top: auto;">
-        <h4 class="single-topic-name">Featured Now</h4>
-        <ul class="trending-widget-list">
-
-    <?php
-    /* $args = array(
-      'posts_per_page' => 10,
-      'offset' => 0,
-      'category' => '17',
-      'orderby' => '',
-      'order' => '',
-      'include' => '',
-      'exclude' => '',
-      'meta_key' => '',
-      'meta_value' => '',
-      'post_type' => 'post',
-      'post_mime_type' => '',
-      'post_parent' => '',
-      'post_status' => 'publish',
-      'suppress_filters' => true);
-
-      $myposts = get_posts($args);
-      foreach ($myposts as $post) : setup_postdata($post);
-      ?>
-
-
-      <li style="display: block;">
-      <a href="<?php the_permalink() ?>">
-      <?php the_title(); ?>
-      </a>
-      </li>
-
-
-      <?php
-      endforeach;
-      wp_reset_postdata(); */
-    ?>           
-        
-    </div-->
+    </div>
 </div>

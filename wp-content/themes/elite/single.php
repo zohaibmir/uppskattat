@@ -182,39 +182,7 @@ get_header();
                             <div class="entry-content large-centered" itemprop="articleBody">
                                 <?php the_content() ?>
                             </div>
-                            <div class="row">
-
-
-                                <?php
-                                $defaults = array(
-                                    'before' => '<div class="small-6 columns previous-btn page-links">',
-                                    'after' => '</div>',
-                                    'link_before' => '',
-                                    'link_after' => '',
-                                    'next_or_number' => 'next',
-                                    'separator' => ' ',
-                                    'nextpagelink' => __('Nästa'),
-                                    'previouspagelink' => __('Föregående'),
-                                    'pagelink' => '%',
-                                    'echo' => 1
-                                );
-
-
-                                wp_link_pages($defaults);
-                                ?>                               
-
-                            </div>
-
-                            <!--div class="row">
-                                <div class="small-6 columns previous-btn">                                        
-                            <?php previous_post_link('%link', 'Föregående'); ?>
-                                </div>
-                                <div class="small-6 columns  next-btn">                                        
-                            <?php next_post_link('%link', 'Nästa'); ?>
-                                </div>
-
-                            </div-->
-                            <br />
+                            
 
                             <div class="bottom-article-share">
                                 <div class="row">

@@ -91,20 +91,14 @@ function fb_like_before_video($content) {
         return $content;
     }
     if (has_tag("djur")) {
-        $insert_code = '<hr class="fb-line" />
-	<h5 style="color: #333; font-family: "Merriweather"; font-style: normal; font-weight: 100; "><i>Gillar du djur? Se då till att gilla oss på Facebook.</i></h5>
-<div class="fb-like" data-href="https://www.facebook.com/pages/Uppskattat-Djur/1514965875438271" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-<hr class="fb-line" style="margin-bottom: -10px;" />';
+        //$insert_code = '<hr class="fb-line" /> <h5 style="color: #333; font-family: "Merriweather"; font-style: normal; font-weight: 100; "><i>Gillar du djur? Se då till att gilla oss på Facebook.</i></h5><div class="fb-like" data-href="https://www.facebook.com/pages/Uppskattat-Djur/1514965875438271" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div><hr class="fb-line" style="margin-bottom: -10px;" />';
+        $insert_code = '<hr class="fb-line" />';
     } else if (has_tag("DIY")) {
-        $insert_code = '<hr class="fb-line" />
-	<h5 style="color: #333; font-family: "Merriweather"; font-style: normal; font-weight: 100; "><i>Gilla Uppskattat för fler liknande artiklar.</i></h5>
-<div class="fb-like" data-href="https://www.facebook.com/pages/Uppskattat-DIY/819987638039132" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-<hr class="fb-line" style="margin-bottom: -10px;" />';
+        //$insert_code = '<hr class="fb-line" /><h5 style="color: #333; font-family: "Merriweather"; font-style: normal; font-weight: 100; "><i>Gilla Uppskattat för fler liknande artiklar.</i></h5><div class="fb-like" data-href="https://www.facebook.com/pages/Uppskattat-DIY/819987638039132" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div><hr class="fb-line" style="margin-bottom: -10px;" />';
+        $insert_code = '<hr class="fb-line" />';
     } else {
-        $insert_code = '<hr class="fb-line" />
-	<h5 style="color: #333; font-family: "Merriweather"; font-style: normal; font-weight: 100; "><i>Gilla Uppskattat för fler liknande artiklar.</i></h5>
-<div class="fb-like" data-href="https://www.facebook.com/UppskattatSE" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-<hr class="fb-line" style="margin-bottom: -10px;" />';
+        //$insert_code = '<hr class="fb-line" />	<h5 style="color: #333; font-family: "Merriweather"; font-style: normal; font-weight: 100; "><i>Gilla Uppskattat för fler liknande artiklar.</i></h5><div class="fb-like" data-href="https://www.facebook.com/UppskattatSE" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div><hr class="fb-line" style="margin-bottom: -10px;" />';
+        $insert_code = '<hr class="fb-line" />';
     }
 
 
