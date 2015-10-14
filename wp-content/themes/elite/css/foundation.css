@@ -427,3 +427,7 @@ select {
         clear: none; }
     .large-block-grid-12 > li:nth-of-type(12n+1) {
         clear: both; } }
+
+.marquee-article {
+   /* border: none !important;*/
+}

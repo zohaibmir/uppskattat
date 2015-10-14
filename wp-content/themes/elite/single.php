@@ -78,21 +78,7 @@ get_header();
 
 
 
-                                <div class="row">
-                                    <div class="small-12 columns text-center">
-                                        <div class="hidden-xs adTop">
-                                            <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #2 - 980x240 (5202746) // created at: Aug 25, 2014 10:11:08 AM -->
-                                            <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
-                                            <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #2 - 980x240 (5202746) // created at: Aug 25, 2014 10:11:08 AM -->
-                                            <div id="5202746"><noscript><a href="http://adserver.adtech.de/adlink|3.0|1568.1|5202746|0|2649|ADTECH;loc=300;alias=" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|1568.1|5202746|0|2649|ADTECH;loc=300;alias=" border="0" width="980" height="240"></a></noscript></div>
-                                            <script>
-            ADTECH.config.placements[5202746] = {sizeid: '2649', params: {alias: '', target: '_blank'}};
-            ADTECH.enqueueAd(5202746);
-            ADTECH.executeQueue();
-                                            </script>
-                                        </div>
-                                    </div>
-                                </div>
+                              
                                 <!--div class="sd-sharing-enabled">
                                     <div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing">
                                         <div class="article-sharing mobile-top-article-share">                                            
@@ -112,7 +98,7 @@ get_header();
 
                                 <div class="feat-img-wrapper wp-caption" itemprop="associatedMedia">
                                     <div class="featured-image__item" itemscope="" itemtype="http://schema.org/ImageObject">
-                                        <?php the_post_thumbnail('full'); ?>
+                                        <?php the_post_thumbnail('big-image'); ?>
 
                                         <!--p class="wp-caption-text" itemprop="caption">&nbsp;</p-->					
                                     </div>
@@ -146,7 +132,7 @@ get_header();
 
 
                                 <div class="page-fb-like show-for-medium-up">
-                                    <span class="like-us-on-fb">Like Us On Facebook</span>
+                                    <span class="like-us-on-fb">Gilla oss på Facebook</span>
                                     <!--Face Book Like Button -->
                                     <?php
                                     if (has_tag("djur")) {
@@ -252,7 +238,7 @@ get_header();
                                 $counter = 0;
                                 $style1 = true;
                                 $style2 = false;
-                                echo do_shortcode('[ajax_load_more cache="true" cache_id="1758095603" preloaded="true" preloaded_amount="15" post_type="post" category="bilder,djur,okategoriserade,videos" category__not_in="1" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" button_label=" " max_pages="150" container_type="div"]');
+                                echo do_shortcode('[ajax_load_more cache="true" cache_id="1758095603" preloaded="true" preloaded_amount="5" post_type="post" category="bilder,djur,okategoriserade,videos" category__not_in="1" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" button_label=" " max_pages="150" container_type="div"]');
                                 ?>
 
                             </div>                          

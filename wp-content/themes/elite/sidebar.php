@@ -22,28 +22,6 @@
 
             </article>
 
-            <!--li class="widget-feat-storyline-item feat-storyline-0">
-                <div class="topic-inner-wrapper">
-                    <div class="topic-title-wrapper small-12 columns left">
-                        <div class="side-thumbnail" style="padding-bottom: 10px;">
-                            <a href="<?php the_permalink() ?>">
-            <?php the_post_thumbnail('medium') ?>
-                            </a>
-                        </div>
-
-                        <h4>
-                            <a href="<?php the_permalink() ?>">
-            <?php the_title(); ?>                                    
-                            </a>
-                        </h4>
-
-    <span class="topic-article-count" style="font-size: 12px"><?php echo wpb_get_post_views(get_the_ID()); ?></span>
-
-                    </div>
-
-                </div>
-
-            </li-->
 
 
             <?php
@@ -51,11 +29,15 @@
         wp_reset_postdata();
         ?>          
 
+
     </div>
-    <div class="sidebaradd">
+    <div class="sidebaradd" id="addsidebar">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Infinity -->
-        <insclass="adsbygoogle"   style="display:inline-block;width:300px;height:600px"  data-ad-client="ca-pub-8985052866235642"                data-ad-slot="9816842213"></insclass>
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:600px"
+             data-ad-client="ca-pub-8985052866235642"
+             data-ad-slot="9816842213"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
