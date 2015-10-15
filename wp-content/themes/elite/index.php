@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<div class="row" style="padding: 10px 0px 0px 0px">
+<div class="row" style="padding: 30px 0px 10px 0px">
     <div class="small-12 columns show-for-medium-up text-center">
         <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #1 - 980x240 (5202745) // created at: Aug 25, 2014 10:11:08 AM -->
         <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>

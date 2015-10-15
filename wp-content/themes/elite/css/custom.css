@@ -64,7 +64,7 @@ and open the template in the editor.
 .topmenu {
     color: #999;
     padding-left: 0px;
-    font-size: 17px;
+    font-size: 22px;
 }
 .topmenu::after {
     /*    content: '';
@@ -225,7 +225,7 @@ body.home .outer-content-wrapper {
 }
 
 .marquee-article {
-    /*border: none !important;*/
+    border: none !important;
 }
 .marquee-article time:before  {
     font-size: 0px !important;

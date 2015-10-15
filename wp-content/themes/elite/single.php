@@ -16,7 +16,7 @@ get_header();
     </div>
 </div>
 
-<div class="row" style="padding: 10px">
+<div class="row" style="padding: 20px 0px">
     <div class="small-12 columns show-for-medium-up show-for-large-on hidden-xs adTop text-center">
         <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #1 - 980x240 (5202745) // created at: Aug 25, 2014 10:11:08 AM -->
         <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
@@ -69,7 +69,7 @@ get_header();
 
                             <div class="mobile-article-wrapper">
 
-                                <h1 itemprop="headline"><?php the_title() ?></h1>
+                                <h1 itemprop="headline" style="padding-top: 0px"><?php the_title() ?></h1>
                                 <?php
                                 if (get_option('adCode')) {
                                     echo '<div class="adBox">' . get_option('adCode') . '</div>';
@@ -122,7 +122,7 @@ get_header();
                                     <span class="post-date">
                                         <meta itemprop="datePublished" content="2015-09-15">
                                         <time class="updated icon-ed-clock" datetime="2015-09-15T20:09:57+00:00" pubdate="">
-                                            <span class="dateStamp"> <?php echo get_the_date('j F - Y'); ?> •&nbsp;</span>
+                                            <span class="dateStamp"> <?php echo get_the_date('Y-m-d'); ?> &nbsp;•&nbsp;</span>
                                             <span class="timeStamp"><?php echo get_the_date('h:m'); ?></span>
                                         </time>
 
@@ -172,23 +172,23 @@ get_header();
 
                             <div class="bottom-article-share">
                                 <div class="row">
-                                    <div class="columns large-12 medium-6 small-12 facebook-article-share-wrapper">                                                                                
+                                    <div class="columns large-12 medium-12 small-12 facebook-article-share-wrapper">                                                                                
                                         <a rel="nofollow" data-shared="sharing-facebook-12055" class="share-facebook sd-button fb-share article-share-btn-bottom fi-social-facebook" href="<?php echo get_the_permalink() ?>/?share=facebook&amp;nb=1" target="_blank" title="Dela på Facebook"><span>Dela på Facebook</span><span class="sharing-screen-reader-text">Dela på Facebook (Öppnas i ett nytt fönster)</span></a>                                            
                                     </div>                                   
                                 </div>
                                 <br />
                                 <div class="row collapse">
-                                    <div class="small-3 large-4 columns" style="padding: 0 5px">                                    
+                                    <div class="small-3 medium-4 large-4 columns" style="padding: 0 5px">                                    
                                         <a rel="nofollow" data-shared="sharing-twitter-12055" class="share-twitter sd-button tw-share article-share-btn-bottom fi-social-twitter no-text show-for-medium-up" href="<?php echo get_the_permalink() ?>/?share=twitter&amp;nb=1" target="_blank" title="Klicka för att dela på Twitter"><span>Tweet</span><span class="sharing-screen-reader-text">Klicka för att dela på Twitter (Öppnas i ett nytt fönster)</span></a>
                                         <a rel="nofollow" data-shared="sharing-twitter-12055" class="share-twitter sd-button tw-share article-share-btn-bottom fi-social-twitter no-text show-for-small-only" href="<?php echo get_the_permalink() ?>/?share=twitter&amp;nb=1" target="_blank" title="Klicka för att dela på Twitter"><span class="sharing-screen-reader-text">Klicka för att dela på Twitter (Öppnas i ett nytt fönster)</span></a>
                                     </div>
 
-                                    <div class="small-3 large-4 columns" style="padding: 0 5px">                                                                                                                      
+                                    <div class="small-3 medium-4 large-4 columns" style="padding: 0 5px">                                                                                                                      
                                         <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-medium-up" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest"><span  style="display: inline">Pinterest</span></a>
                                         <a rel="nofollow" data-shared="sharing-pinterest-12040" class="tw-share article-share-btn-bottom fi-social-pinterest share-pinterest sd-button share-icon show-for-small-only" href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest"></a>
                                     </div>
 
-                                    <div class="small-3 large-4 columns" style="padding: 0 5px">                                    
+                                    <div class="small-3 medium-4 large-4 columns" style="padding: 0 5px">                                    
                                         <a rel="nofollow" data-shared="" class="share-email sd-button tw-share article-share-btn-bottom fi-mail  show-for-medium-up" href="mailto:info@notedmedia.se?subject=Inbjudan till uppskattat&body=<?php echo get_the_title() ?>" target="_blank"><span  style="display: inline">E-post</span>
                                         </a>
 
@@ -215,7 +215,7 @@ get_header();
                                         <div class="likt-btn" id="bottom-like-standard-box">
                                             <div class="center-vertically">
                                                 <div id="bottom-facebook-like">
-                                                    <div class="fb-like fb_iframe_widget" data-action="like" data-href="https://www.facebook.com/UppskattatSE" data-layout="button_count" data-share="false" data-show-faces="false" data-width="130" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=978794682143686&amp;container_width=500&amp;href=https%3A%2F%2Fwww.facebook.com%2FNewsnerBasta&amp;layout=button_count&amp;locale=sv_SE&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=130"><span style="vertical-align: bottom; width: 81px; height: 20px;"><iframe name="f260675194" width="130px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/v2.4/plugins/like.php?action=like&amp;app_id=978794682143686&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FR_qmi4A5CC2.js%3Fversion%3D41%23cb%3Dfeab79ee8%26domain%3Dwww.newsner.com%26origin%3Dhttp%253A%252F%252Fwww.newsner.com%252Ff10d2b713c%26relation%3Dparent.parent&amp;container_width=500&amp;href=https%3A%2F%2Fwww.facebook.com%2FNewsnerBasta&amp;layout=button_count&amp;locale=sv_SE&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=130" style="border: none; visibility: visible; width: 81px; height: 20px;" class=""></iframe></span></div>
+                                                    <div class="fb-like" data-href="https://www.facebook.com/UppskattatSE?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
                                                 </div>
                                             </div>
                                         </div>

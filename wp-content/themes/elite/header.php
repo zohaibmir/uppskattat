@@ -26,11 +26,11 @@
 
     <div class="body-wrapper">
 
-        <div class="nav-wrapper row show-for-medium-down" style="position: relative;min-height: 30px;">  
+        <div class="nav-wrapper row show-for-small-only" style="position: relative;min-height: 30px;">  
             <div style="position: fixed;z-index: 50;width: 100%;background: #f9f9f9;padding: 15px 0px;">
                 <div class="row nav-shadow">
                     <div class="small-12 columns">
-                        <div id="mobile-header" style="position: absolute;left: 20px;top: 5px;">
+                        <div id="mobile-header" style="position: absolute;left: 25px;top: -5px;">
                             <a class="topbar" id="responsive-menu-button" href="#sidr-main">
                                 <div class="topmenu"><i class="fi-list"></i></div>
                             </a>
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <nav class="main-nav show-for-large-up ">
+        <nav class="main-nav show-for-medium-up">
             <div class="nav-outer-wrapper large-12">
                 <div class="nav-wrapper row nav-wrapper row nav-shadow">
                     <div class="nav-inner-wrapper columns">

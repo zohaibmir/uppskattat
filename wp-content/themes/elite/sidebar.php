@@ -1,5 +1,5 @@
 <div class="sidebar-inner-wrapper right">
-    <div class="topic-widget">
+    <div class="topic-widget" style="padding-top: 10px">
 
         <!--h4><a href="topics">Popular</a></h4-->
 
@@ -33,14 +33,15 @@
     </div>
     <div class="sidebaradd" id="addsidebar">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Infinity -->
+        <!-- Arvostettu test2 -->
         <ins class="adsbygoogle"
-             style="display:inline-block;width:300px;height:600px"
+             style="display:inline-block;width:300px;height:250px"
              data-ad-client="ca-pub-8985052866235642"
-             data-ad-slot="9816842213"></ins>
+             data-ad-slot="5763260219"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
+
 
     </div>
 </div>
