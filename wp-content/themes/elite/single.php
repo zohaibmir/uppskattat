@@ -16,8 +16,8 @@ get_header();
     </div>
 </div>
 
-<div class="row" style="padding: 20px 0px">
-    <div class="small-12 columns show-for-medium-up show-for-large-on hidden-xs adTop text-center">
+<div class="row" style="padding: 60px 0px 50px 0px">
+    <div class="small-12 columns show-for-medium-up text-center">
         <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #1 - 980x240 (5202745) // created at: Aug 25, 2014 10:11:08 AM -->
         <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
         <div id="5202745"><noscript><a href="http://adserver.adtech.de/adlink|3.0|1568.1|5202745|0|2649|ADTECH;loc=300;alias=" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|1568.1|5202745|0|2649|ADTECH;loc=300;alias=" border="0" width="980" height="240"></a></noscript></div>
@@ -28,7 +28,7 @@ get_header();
             ADTECH.executeQueue();
         </script>
     </div>
-    <div class="small-12 columns show-for-small-only mobileAd text-center">
+    <div class="small-12 columns show-for-small-only  text-center">
         <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Mobilt // Placement: Uppskattat - Mobil #1 - 320x320 (5202747) // created at: Aug 25, 2014 10:11:14 AM -->
         <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
         <div id="5202747"><noscript><a href="http://a.adtech.de/adlink|3.0|1568.1|5202747|0|2804|ADTECH;loc=300;alias=" target="_blank"><img src="http://a.adtech.de/adserv|3.0|1568.1|5202747|0|2804|ADTECH;loc=300;alias=" border="0" width="320" height="320"></a></noscript></div>
@@ -75,32 +75,9 @@ get_header();
                                     echo '<div class="adBox">' . get_option('adCode') . '</div>';
                                 }
                                 ?>
-
-
-
-                              
-                                <!--div class="sd-sharing-enabled">
-                                    <div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing">
-                                        <div class="article-sharing mobile-top-article-share">                                            
-                                            <a rel="nofollow" data-shared="sharing-facebook-12055" class="share-facebook sd-button fb-share article-share-btn fi-social-facebook no-text" href="<?php echo get_the_permalink() ?>/?share=facebook&amp;nb=1" target="_blank" title="Dela på Facebook"><span>Share</span><span class="sharing-screen-reader-text">Dela på Facebook (Öppnas i ett nytt fönster)</span></a>                                            
-                                            <a rel="nofollow" data-shared="sharing-twitter-12055" class="share-twitter sd-button tw-share article-share-btn fi-social-twitter no-text" href="<?php echo get_the_permalink() ?>/?share=twitter&amp;nb=1" target="_blank" title="Klicka för att dela på Twitter"><span>Tweet</span><span class="sharing-screen-reader-text">Klicka för att dela på Twitter (Öppnas i ett nytt fönster)</span></a>
-                                            <a href="<?php the_permalink() ?>/?share=pinterest&amp;nb=1" target="_blank" title="Klicka för att dela till Pinterest" class="pi-share article-share-btn fi-social-pinterest show-for-large-up"></a>                                            
-                                            <a rel="nofollow" data-shared="" class="share-email sd-button email-share article-share-btn fi-mail no-text" href="<?php echo get_the_permalink() ?>/?share=email&amp;nb=1" target="_blank" title="Klicka för att maila detta till en vän"><span class="sharing-screen-reader-text">Klicka för att maila detta till en vän (Öppnas i ett nytt fönster)</span></a>
-                                            
-                                            <div class="share-divider"></div>
-                                            <div class="article-like-button">
-                                                <div class="fb-like fb_iframe_widget" data-action="like" data-href="https://www.facebook.com/UppskattatSE" data-layout="button_count" data-share="false" data-show-faces="false" data-width="130" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=978794682143686&amp;container_width=500&amp;href=https%3A%2F%2Fwww.facebook.com%2FNewsnerBasta&amp;layout=button_count&amp;locale=sv_SE&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=130"><span style="vertical-align: bottom; width: 81px; height: 20px;"><iframe name="f260675194" width="130px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/v2.4/plugins/like.php?action=like&amp;app_id=978794682143686&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FR_qmi4A5CC2.js%3Fversion%3D41%23cb%3Dfeab79ee8%26domain%3Dwww.newsner.com%26origin%3Dhttp%253A%252F%252Fwww.newsner.com%252Ff10d2b713c%26relation%3Dparent.parent&amp;container_width=500&amp;href=https%3A%2F%2Fwww.facebook.com%2FNewsnerBasta&amp;layout=button_count&amp;locale=sv_SE&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=130" style="border: none; visibility: visible; width: 81px; height: 20px;" class=""></iframe></span></div>
-                                            </div>
-                                            <div class="total-share-count"><span></span></div>
-                                        </div>
-                                    </div>
-                                </div-->                           
-
                                 <div class="feat-img-wrapper wp-caption" itemprop="associatedMedia">
                                     <div class="featured-image__item" itemscope="" itemtype="http://schema.org/ImageObject">
-                                        <?php the_post_thumbnail('big-image'); ?>
-
-                                        <!--p class="wp-caption-text" itemprop="caption">&nbsp;</p-->					
+                                        <?php the_post_thumbnail('big-image'); ?>                                      		
                                     </div>
 
                                 </div>
@@ -146,10 +123,19 @@ get_header();
 
                                 </div>
                             </div>
+                            <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Mobilt // Placement: Uppskattat - Mobil #2 - 320x320 (5202748) // created at: Aug 25, 2014 10:11:14 AM -->
+                            <!--div class="show-for-small-only">
+                                
+                                <div id="5202748"><noscript><a href="http://a.adtech.de/adlink|3.0|1568.1|5202748|0|2804|ADTECH;loc=300;alias=" target="_blank"><img src="http://a.adtech.de/adserv|3.0|1568.1|5202748|0|2804|ADTECH;loc=300;alias=" border="0" width="320" height="320"></a></noscript></div>
+                                <script>
+                                    ADTECH.config.placements[5202748] = {sizeid: '2804', params: {alias: '', target: '_blank'}};
+                                    ADTECH.enqueueAd(5202748);
+                                    ADTECH.executeQueue();
+                                </script>
+                            </div-->
 
-
-                            <div class="page-fb-like show-for-small mobile-like-us">
-                                <span class="like-us-on-fb">Like Us On Facebook</span>
+                            <div class="page-fb-like show-for-small mobile-like-us" style="padding: 10px;padding-left: 0px">
+                                <span class="like-us-on-fb">Gilla oss på Facebook</span>
                                 <?php
                                 if (has_tag("djur")) {
                                     echo '<div class="fb-like" data-href="https://www.facebook.com/pages/Uppskattat-Djur/1514965875438271" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>';
@@ -168,7 +154,7 @@ get_header();
                             <div class="entry-content large-centered" itemprop="articleBody">
                                 <?php the_content() ?>
                             </div>
-                            
+
 
                             <div class="bottom-article-share">
                                 <div class="row">
@@ -207,7 +193,6 @@ get_header();
 
 
                             </div>                            
-                            <br />                            
 
                             <div class="facebook fixed bottom" id="bottom-social-share-container">
                                 <div class="row god" id="bottom-social-container">
@@ -228,9 +213,79 @@ get_header();
                                     </div>  
                                 </div>
                             </div>
-
                             <hr />
 
+        <?php
+
+        $today = getdate();
+            $args = array(
+				'posts_per_page' => 1,
+//				'meta_key' => 'views',
+				'orderby' => 'rand',
+				'order' => 'desc',
+				'post__in' => array(11338),
+//				'post__not_in' => array($post->ID),
+				'category__not_in' => array($sponsored_cat->term_id),
+			);
+            // The Query
+            $the_query = new WP_Query($args);
+        ?>
+        <?php if ($the_query->have_posts()) : ?>
+
+        <?php    $incrementer = 0; ?>
+	<?php while ($the_query->have_posts()) : ?>
+
+        <?php if ($incrementer == 1) {
+        } ?>
+
+
+		<?php $the_query->the_post(); ?>
+		<?php $exclude_ids[] = $post->ID; ?>
+		<div class="article-small">
+        	<div class="kanske-giller">
+            	Mer Uppskattat
+            </div>
+			<a href="<?php the_permalink(); ?>">
+				<?php
+				if (($post->ID == 13944) || ($post->ID == 11338) || ($post->ID == 13394)) {
+					$content = get_the_content();
+					$s = strpos($content, '<script async defer');
+					$e = strpos($content, '</script>', $s);
+					$video = substr($content, $s, $e-$s);
+					$video = str_replace('ap=true', 'ap=false', $video);
+					echo '<!-- SHOW VIDEO HERE -->';
+					echo $video . '</script>';
+				} else {
+					the_post_thumbnail('small-image');
+				}
+				?>
+           	</a>
+            <header class="post-header large-12 columns" style="margin-top: 0px; padding: 0px;">
+                <h2><a href="<?php the_permalink(); ?>" style="font-weight: 300 !important;"><?php the_title(); ?></a></h2>
+            </header>
+			<div class="clearfix"></div>
+		</div>
+
+		<?php wp_reset_postdata(); ?>
+        <?php $incrementer++; ?>
+	<?php endwhile; ?>
+<?php endif; ?>
+
+
+                            <hr />
+                            <div class="show-for-medium-up text-center">
+                                <iframe name="CPbanner8404268" src="http://track.adform.net/adfscript/?bn=8404268;cpjs=2;ord=[timestamp]" width="680" height="350" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                            <div class="show-for-small-only text-center">
+                                <iframe name="CPbanner8389816" src="http://track.adform.net/adfscript/?bn=8389816;cpjs=2;ord=[timestamp]" width="320" height="290" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                            <br />
+                            <div data-spklw-widget="widget-540d98bde6db8"></div>
+                            <script src="http://widgets.sprinklecontent.com/v2/sprinkle.js" async></script>
+                            
+                            <div class="kanske-giller">
+                                Du kanske även gillar
+                            </div>
                             <div class="article-wrapper">
 
 

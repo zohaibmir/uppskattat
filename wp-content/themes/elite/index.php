@@ -12,16 +12,17 @@
     </div>
 </div>
 
-<div class="row" style="padding: 30px 0px 10px 0px">
+<div class="row" style="padding: 60px 0px 40px 0px">
     <div class="small-12 columns show-for-medium-up text-center">
         <!-- Async Tag // Tag for network 1568: Leeads // Website: Leeads AB | Intressesajt | Uppskattat.se // Page: Uppskattat.se - Desktop // Placement: Uppskattat - Panorama #1 - 980x240 (5202745) // created at: Aug 25, 2014 10:11:08 AM -->
+       
         <script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
-        <div id="5202745"><noscript><a href="http://adserver.adtech.de/adlink|3.0|1568.1|5202745|0|2649|ADTECH;loc=300;alias=" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|1568.1|5202745|0|2649|ADTECH;loc=300;alias=" border="0" width="980" height="240"></a></noscript></div>
+        <div id="5202745"><noscript><a href="" target="_blank"><img src="" border="0" width="980" height="240"></a></noscript></div>
         <script>
-            ADTECH.config.page = {protocol: 'http', server: 'adserver.adtech.de', network: '1568.1', siteid: '707809', params: {loc: '100'}};
-            ADTECH.config.placements[5202745] = {sizeid: '2649', params: {alias: '', target: '_blank'}};
-            ADTECH.enqueueAd(5202745);
-            ADTECH.executeQueue();
+                    ADTECH.config.page = {protocol: 'http', server: 'adserver.adtech.de', network: '1568.1', siteid: '707809', params: {loc: '100'}};
+                    ADTECH.config.placements[5202745] = {sizeid: '2649', params: {alias: '', target: '_blank'}};
+                    ADTECH.enqueueAd(5202745);
+                    ADTECH.executeQueue();
         </script>
     </div>
     <div class="small-12 columns show-for-small-only text-center">
@@ -64,7 +65,8 @@
                 $counter = 0;
                 $style1 = true;
                 $style2 = false;
-                echo do_shortcode('[ajax_load_more cache="true" cache_id="1758095603" preloaded="true" preloaded_amount="5" post_type="post" category="bilder,djur,okategoriserade,videos" category__not_in="1" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" button_label=" " max_pages="150" container_type="div"]');
+                //echo do_shortcode('[ajax_load_more cache="true" cache_id="1758095603" preloaded="true" preloaded_amount="10" post_type="post" category="bilder,djur,okategoriserade,videos" category__not_in="1" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" button_label=" " max_pages="150" container_type="div"]');
+                echo do_shortcode('[ajax_load_more cache="true" cache_id="4102086261" preloaded="true" preloaded_amount="11" post_type="post" category="bilder,djur,okategoriserade,videos" tag="allmant,diy,djur,haftigt,hant,humor,nyheter,solskenshistorier" posts_per_page="15" scroll_distance="50" max_pages="200" button_label=" " container_type="div"]');                
                 ?>
 
                 <!--div class="loader">
@@ -74,11 +76,11 @@
                         </div>
                     </div>
                 </div-->
-                
+
                 <br />                            
-                            <br />
-                            <br />
-                            <br />
+                <br />
+                <br />
+                <br />
             </div>
         </div>
 

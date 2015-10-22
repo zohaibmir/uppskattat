@@ -429,5 +429,14 @@ select {
         clear: both; } }
 
 .marquee-article {
-   /* border: none !important;*/
+    border: none !important;
+}
+
+#postpager-table {
+    display: none !important;
+}
+
+.bottom-article-share {
+    margin-bottom: 10px!important;
+    margin-top: -10px!important;
 }

@@ -174,7 +174,7 @@ and open the template in the editor.
 }
 
 .fixed .row {
-    max-width: 66.0rem;
+    max-width: 60.0rem;
     margin: 0 auto;
 }
 
@@ -230,9 +230,17 @@ body.home .outer-content-wrapper {
 .marquee-article time:before  {
     font-size: 0px !important;
 }
+
+.kanske-giller {
+    display: block;background-color: #4992d3; padding: 8px; margin: 20px 0px 20px 0px; color: white;
+}
 @media only screen and (max-width:40em){
     .footer {
         padding-top: 100px;
+    }
+
+    .kanske-giller {
+        display: block;background-color: #4992d3; padding: 8px; margin: 40px 0px 20px 0px; color: white;
     }
 
     .menu-links  {
@@ -275,6 +283,8 @@ body.home .outer-content-wrapper {
     }
     .fb-mobile-share span {
         top: 0px !important;
+        left: 7px;
+
     }
     .fb-mobile-share:before {
         float: left;

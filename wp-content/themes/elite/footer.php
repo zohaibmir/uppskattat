@@ -89,10 +89,12 @@
             if (!$("#addsidebar").hasClass('sticky-add')) {
                 $("#addsidebar").addClass('sticky-add');
             }
+            $("#bottom-social-share-container").css("display" ,"none");
         } else {
             if ($("#addsidebar").hasClass('sticky-add')) {
                 $("#addsidebar").removeClass('sticky-add');
             }
+            $("#bottom-social-share-container").css("display" ,"block");
         }
         //console.log(scroll);
         // Do something

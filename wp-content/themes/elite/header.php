@@ -45,11 +45,11 @@
                                             Sections
                                         </a>
                                     </li>
-                                    <li>                     
+                                    <!--li>                     
                                         <a href="<?php echo get_site_url(); ?>">
                                             Hem
                                         </a>
-                                    </li>
+                                    </li-->
 
                                     <li>                                            
                                         <a href="<?php echo get_site_url(); ?>/info">
@@ -87,13 +87,13 @@
 
                         <!-- HOME NAVIGATION -->
                         <div class="home-nav large-12 show-for-medium-up">
-                            <ul class="topic-nav">
+                            <ul class="topic-nav right">
 
-                                <li>                     
+                                <!--li>                     
                                     <a href="<?php echo get_site_url(); ?>">
                                         Hem
                                     </a>
-                                </li>
+                                </li-->
 
                                 <li>                                            
                                     <a href="<?php echo get_site_url(); ?>/info">
@@ -122,7 +122,7 @@
                                   <?php endforeach; ?>
                                   <?php endif; */ ?>
                             </ul>
-                            <ul class="util-nav show-for-medium-up">
+                            <!--ul class="util-nav show-for-medium-up">
 
 
                                 <li>
@@ -141,7 +141,7 @@
                                     </a>
                                 </li>
 
-                            </ul>
+                            </ul-->
                         </div>
 
 
